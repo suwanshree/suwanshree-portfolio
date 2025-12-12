@@ -3,7 +3,6 @@ import { Canvas } from "@react-three/fiber";
 import Lights from "./components/Lights";
 import PlayerController from "./components/Player/PlayerController";
 import LobbyScene from "./scenes/LobbyScene";
-import "./styles/globals.css";
 
 export default function App() {
   return (

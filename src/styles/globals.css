@@ -13,17 +13,3 @@ body,
 canvas {
   display: block;
 }
-
-/* Overlay hint */
-.hint {
-  position: fixed;
-  left: 16px;
-  bottom: 16px;
-  background: rgba(20, 20, 20, 0.75);
-  color: #eee;
-  padding: 8px 12px;
-  border-radius: 8px;
-  font-size: 13px;
-  pointer-events: none;
-  z-index: 100;
-}

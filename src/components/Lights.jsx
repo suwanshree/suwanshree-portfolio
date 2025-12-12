@@ -1,7 +1,7 @@
 export default function Lights() {
   return (
     <>
-      <ambientLight intensity={0.35} />
+      <ambientLight intensity={0.4} />
       <directionalLight
         castShadow
         position={[10, 20, 10]}
