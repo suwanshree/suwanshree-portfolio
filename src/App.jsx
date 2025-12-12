@@ -1,35 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Suspense } from "react";
+import { Canvas } from "@react-three/fiber";
+import Lights from "./components/Lights";
+import PlayerController from "./components/Player/PlayerController";
+import LobbyScene from "./scenes/LobbyScene";
+import "./styles/globals.css";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div style={{ width: "100vw", height: "100vh" }}>
+      <Canvas
+        shadows
+        camera={{ fov: 75, near: 0.1, far: 1000, position: [0, 1.6, 6] }}
+        style={{ background: "#111217" }}
+      >
+        <Suspense fallback={null}>
+          <Lights />
+          <PlayerController />
+          <LobbyScene />
+        </Suspense>
+      </Canvas>
+    </div>
+  );
 }
-
-export default App
