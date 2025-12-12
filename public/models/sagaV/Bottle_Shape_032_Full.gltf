@@ -1,0 +1,5342 @@
+{
+    "asset": {
+        "copyright": "(C)2025 suwan",
+        "generator": "maya2glTF v1.5.2 fc60fee",
+        "version": "2.0"
+    },
+    "scenes": [
+        {
+            "nodes": [
+                64,
+                48,
+                32,
+                16,
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "nodes": [
+        {
+            "name": "Sun_Bottle_Geo",
+            "children": [
+                1
+            ],
+            "translation": [
+                -11.0,
+                16.956871032714845,
+                15.54189682006836
+            ]
+        },
+        {
+            "name": "Sun_Bottle_Geo:PIV",
+            "children": [
+                14,
+                12,
+                10,
+                8,
+                6,
+                2
+            ],
+            "translation": [
+                11.0,
+                -16.956871032714845,
+                2.0
+            ]
+        },
+        {
+            "name": "pasted__mainBottle",
+            "children": [
+                3
+            ],
+            "translation": [
+                -11.0,
+                0.0,
+                -2.0
+            ]
+        },
+        {
+            "name": "pasted__mainBottle:PIV",
+            "children": [
+                4
+            ],
+            "translation": [
+                11.0,
+                0.0,
+                2.0
+            ]
+        },
+        {
+            "name": "pasted__bottleShape",
+            "children": [
+                5
+            ],
+            "translation": [
+                -11.0,
+                0.0,
+                -2.0
+            ]
+        },
+        {
+            "name": "pasted__bottleShape:PIV",
+            "mesh": 0,
+            "translation": [
+                11.0,
+                0.0,
+                2.0
+            ]
+        },
+        {
+            "name": "pasted__frontLabel",
+            "children": [
+                7
+            ],
+            "translation": [
+                -11.0,
+                0.0,
+                -2.0
+            ]
+        },
+        {
+            "name": "pasted__frontLabel:PIV",
+            "mesh": 1,
+            "translation": [
+                11.0,
+                0.0,
+                2.0
+            ]
+        },
+        {
+            "name": "pasted__backLabel",
+            "children": [
+                9
+            ],
+            "translation": [
+                -11.0,
+                0.0,
+                -2.0
+            ]
+        },
+        {
+            "name": "pasted__backLabel:PIV",
+            "mesh": 2,
+            "translation": [
+                11.0,
+                0.0,
+                2.0
+            ]
+        },
+        {
+            "name": "pasted__V_Geo",
+            "children": [
+                11
+            ],
+            "translation": [
+                -11.184799194335938,
+                34.14778137207031,
+                -2.837240219116211
+            ]
+        },
+        {
+            "name": "pasted__V_Geo:PIV",
+            "mesh": 3,
+            "translation": [
+                11.184799194335938,
+                -34.14778137207031,
+                2.837240219116211
+            ]
+        },
+        {
+            "name": "pasted__LiquidShape",
+            "children": [
+                13
+            ],
+            "translation": [
+                -11.0,
+                13.801904678344729,
+                -2.0
+            ]
+        },
+        {
+            "name": "pasted__LiquidShape:PIV",
+            "mesh": 4,
+            "translation": [
+                11.0,
+                -13.801904678344729,
+                2.0
+            ]
+        },
+        {
+            "name": "pasted__CapShape",
+            "children": [
+                15
+            ],
+            "translation": [
+                -11.0,
+                32.80032730102539,
+                -2.0
+            ]
+        },
+        {
+            "name": "pasted__CapShape:PIV",
+            "mesh": 5,
+            "translation": [
+                11.0,
+                -32.80032730102539,
+                2.0
+            ]
+        },
+        {
+            "name": "Siren_Bottle_Geo",
+            "children": [
+                17
+            ],
+            "translation": [
+                21.5,
+                16.956871032714845,
+                19.04189682006836
+            ]
+        },
+        {
+            "name": "Siren_Bottle_Geo:PIV",
+            "children": [
+                30,
+                28,
+                26,
+                24,
+                22,
+                18
+            ],
+            "translation": [
+                -21.5,
+                -16.956871032714845,
+                -1.5
+            ]
+        },
+        {
+            "name": "pasted__mainBottle",
+            "children": [
+                19
+            ],
+            "translation": [
+                21.5,
+                0.0,
+                1.5
+            ]
+        },
+        {
+            "name": "pasted__mainBottle:PIV",
+            "children": [
+                20
+            ],
+            "translation": [
+                -21.5,
+                0.0,
+                -1.5
+            ]
+        },
+        {
+            "name": "pasted__bottleShape",
+            "children": [
+                21
+            ],
+            "translation": [
+                21.5,
+                0.0,
+                1.5
+            ]
+        },
+        {
+            "name": "pasted__bottleShape:PIV",
+            "mesh": 6,
+            "translation": [
+                -21.5,
+                0.0,
+                -1.5
+            ]
+        },
+        {
+            "name": "pasted__frontLabel",
+            "children": [
+                23
+            ],
+            "translation": [
+                21.5,
+                0.0,
+                1.5
+            ]
+        },
+        {
+            "name": "pasted__frontLabel:PIV",
+            "mesh": 7,
+            "translation": [
+                -21.5,
+                0.0,
+                -1.5
+            ]
+        },
+        {
+            "name": "pasted__backLabel",
+            "children": [
+                25
+            ],
+            "translation": [
+                21.5,
+                0.0,
+                1.5
+            ]
+        },
+        {
+            "name": "pasted__backLabel:PIV",
+            "mesh": 8,
+            "translation": [
+                -21.5,
+                0.0,
+                -1.5
+            ]
+        },
+        {
+            "name": "pasted__V_Geo",
+            "children": [
+                27
+            ],
+            "translation": [
+                21.78695106506348,
+                34.14778137207031,
+                0.6920512318611145
+            ]
+        },
+        {
+            "name": "pasted__V_Geo:PIV",
+            "mesh": 9,
+            "translation": [
+                -21.78695106506348,
+                -34.14778137207031,
+                -0.6920512318611145
+            ]
+        },
+        {
+            "name": "pasted__LiquidShape",
+            "children": [
+                29
+            ],
+            "translation": [
+                21.5,
+                13.801904678344729,
+                1.5
+            ]
+        },
+        {
+            "name": "pasted__LiquidShape:PIV",
+            "mesh": 10,
+            "translation": [
+                -21.5,
+                -13.801904678344729,
+                -1.5
+            ]
+        },
+        {
+            "name": "pasted__CapShape",
+            "children": [
+                31
+            ],
+            "translation": [
+                21.5,
+                32.80032730102539,
+                1.5
+            ]
+        },
+        {
+            "name": "pasted__CapShape:PIV",
+            "mesh": 11,
+            "translation": [
+                -21.5,
+                -32.80032730102539,
+                -1.5
+            ]
+        },
+        {
+            "name": "Oracle_Bottle_Geo",
+            "children": [
+                33
+            ],
+            "translation": [
+                0.0,
+                16.956871032714845,
+                13.54189682006836
+            ]
+        },
+        {
+            "name": "Oracle_Bottle_Geo:PIV",
+            "children": [
+                46,
+                44,
+                42,
+                40,
+                38,
+                34
+            ],
+            "translation": [
+                0.0,
+                -16.956871032714845,
+                4.0
+            ]
+        },
+        {
+            "name": "mainBottle",
+            "children": [
+                35
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                -4.0
+            ]
+        },
+        {
+            "name": "mainBottle:PIV",
+            "children": [
+                36
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                4.0
+            ]
+        },
+        {
+            "name": "bottleShape",
+            "children": [
+                37
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                -4.0
+            ]
+        },
+        {
+            "name": "bottleShape:PIV",
+            "mesh": 12,
+            "translation": [
+                0.0,
+                0.0,
+                4.0
+            ]
+        },
+        {
+            "name": "frontLabel",
+            "children": [
+                39
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                -4.0
+            ]
+        },
+        {
+            "name": "frontLabel:PIV",
+            "mesh": 13,
+            "translation": [
+                0.0,
+                0.0,
+                4.0
+            ]
+        },
+        {
+            "name": "backLabel",
+            "children": [
+                41
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                -4.0
+            ]
+        },
+        {
+            "name": "backLabel:PIV",
+            "mesh": 14,
+            "translation": [
+                0.0,
+                0.0,
+                4.0
+            ]
+        },
+        {
+            "name": "V_Geo",
+            "children": [
+                43
+            ],
+            "translation": [
+                -0.006688930094242096,
+                34.14778137207031,
+                -4.857366561889648
+            ]
+        },
+        {
+            "name": "V_Geo:PIV",
+            "mesh": 15,
+            "translation": [
+                0.006688930094242096,
+                -34.14778137207031,
+                4.857366561889648
+            ]
+        },
+        {
+            "name": "LiquidShape",
+            "children": [
+                45
+            ],
+            "translation": [
+                0.0,
+                13.801904678344729,
+                -4.0
+            ]
+        },
+        {
+            "name": "LiquidShape:PIV",
+            "mesh": 16,
+            "translation": [
+                0.0,
+                -13.801904678344729,
+                4.0
+            ]
+        },
+        {
+            "name": "CapShape",
+            "children": [
+                47
+            ],
+            "translation": [
+                0.0,
+                32.80032730102539,
+                -4.0
+            ]
+        },
+        {
+            "name": "CapShape:PIV",
+            "mesh": 17,
+            "translation": [
+                0.0,
+                -32.80032730102539,
+                4.0
+            ]
+        },
+        {
+            "name": "Magician_Bottle_Geo",
+            "children": [
+                49
+            ],
+            "translation": [
+                11.0,
+                16.956871032714845,
+                15.54189682006836
+            ]
+        },
+        {
+            "name": "Magician_Bottle_Geo:PIV",
+            "children": [
+                62,
+                60,
+                58,
+                56,
+                54,
+                50
+            ],
+            "translation": [
+                -11.0,
+                -16.956871032714845,
+                2.0
+            ]
+        },
+        {
+            "name": "pasted__mainBottle",
+            "children": [
+                51
+            ],
+            "translation": [
+                11.0,
+                0.0,
+                -2.0
+            ]
+        },
+        {
+            "name": "pasted__mainBottle:PIV",
+            "children": [
+                52
+            ],
+            "translation": [
+                -11.0,
+                0.0,
+                2.0
+            ]
+        },
+        {
+            "name": "pasted__bottleShape",
+            "children": [
+                53
+            ],
+            "translation": [
+                11.0,
+                0.0,
+                -2.0
+            ]
+        },
+        {
+            "name": "pasted__bottleShape:PIV",
+            "mesh": 18,
+            "translation": [
+                -11.0,
+                0.0,
+                2.0
+            ]
+        },
+        {
+            "name": "pasted__frontLabel",
+            "children": [
+                55
+            ],
+            "translation": [
+                11.0,
+                0.0,
+                -2.0
+            ]
+        },
+        {
+            "name": "pasted__frontLabel:PIV",
+            "mesh": 19,
+            "translation": [
+                -11.0,
+                0.0,
+                2.0
+            ]
+        },
+        {
+            "name": "pasted__backLabel",
+            "children": [
+                57
+            ],
+            "translation": [
+                11.0,
+                0.0,
+                -2.0
+            ]
+        },
+        {
+            "name": "pasted__backLabel:PIV",
+            "mesh": 20,
+            "translation": [
+                -11.0,
+                0.0,
+                2.0
+            ]
+        },
+        {
+            "name": "pasted__V_Geo",
+            "children": [
+                59
+            ],
+            "translation": [
+                11.171713829040528,
+                34.14778137207031,
+                -2.840021848678589
+            ]
+        },
+        {
+            "name": "pasted__V_Geo:PIV",
+            "mesh": 21,
+            "translation": [
+                -11.171713829040528,
+                -34.14778137207031,
+                2.840021848678589
+            ]
+        },
+        {
+            "name": "pasted__LiquidShape",
+            "children": [
+                61
+            ],
+            "translation": [
+                11.0,
+                13.801904678344729,
+                -2.0
+            ]
+        },
+        {
+            "name": "pasted__LiquidShape:PIV",
+            "mesh": 22,
+            "translation": [
+                -11.0,
+                -13.801904678344729,
+                2.0
+            ]
+        },
+        {
+            "name": "pasted__CapShape",
+            "children": [
+                63
+            ],
+            "translation": [
+                11.0,
+                32.80032730102539,
+                -2.0
+            ]
+        },
+        {
+            "name": "pasted__CapShape:PIV",
+            "mesh": 23,
+            "translation": [
+                -11.0,
+                -32.80032730102539,
+                2.0
+            ]
+        },
+        {
+            "name": "Fool_Bottle_Geo",
+            "children": [
+                65
+            ],
+            "translation": [
+                -21.5,
+                16.956871032714845,
+                19.04189682006836
+            ]
+        },
+        {
+            "name": "Fool_Bottle_Geo:PIV",
+            "children": [
+                78,
+                76,
+                74,
+                72,
+                70,
+                66
+            ],
+            "translation": [
+                21.5,
+                -16.956871032714845,
+                -1.5
+            ]
+        },
+        {
+            "name": "pasted__mainBottle",
+            "children": [
+                67
+            ],
+            "translation": [
+                -21.5,
+                0.0,
+                1.5
+            ]
+        },
+        {
+            "name": "pasted__mainBottle:PIV",
+            "children": [
+                68
+            ],
+            "translation": [
+                21.5,
+                0.0,
+                -1.5
+            ]
+        },
+        {
+            "name": "pasted__bottleShape",
+            "children": [
+                69
+            ],
+            "translation": [
+                -21.5,
+                0.0,
+                1.5
+            ]
+        },
+        {
+            "name": "pasted__bottleShape:PIV",
+            "mesh": 24,
+            "translation": [
+                21.5,
+                0.0,
+                -1.5
+            ]
+        },
+        {
+            "name": "pasted__frontLabel",
+            "children": [
+                71
+            ],
+            "translation": [
+                -21.5,
+                0.0,
+                1.5
+            ]
+        },
+        {
+            "name": "pasted__frontLabel:PIV",
+            "mesh": 25,
+            "translation": [
+                21.5,
+                0.0,
+                -1.5
+            ]
+        },
+        {
+            "name": "pasted__backLabel",
+            "children": [
+                73
+            ],
+            "translation": [
+                -21.5,
+                0.0,
+                1.5
+            ]
+        },
+        {
+            "name": "pasted__backLabel:PIV",
+            "mesh": 26,
+            "translation": [
+                21.5,
+                0.0,
+                -1.5
+            ]
+        },
+        {
+            "name": "pasted__V_Geo",
+            "children": [
+                75
+            ],
+            "translation": [
+                -21.799522399902345,
+                34.14778137207031,
+                0.6966267228126526
+            ]
+        },
+        {
+            "name": "pasted__V_Geo:PIV",
+            "mesh": 27,
+            "translation": [
+                21.799522399902345,
+                -34.14778137207031,
+                -0.6966267228126526
+            ]
+        },
+        {
+            "name": "pasted__LiquidShape",
+            "children": [
+                77
+            ],
+            "translation": [
+                -21.5,
+                13.801904678344729,
+                1.5
+            ]
+        },
+        {
+            "name": "pasted__LiquidShape:PIV",
+            "mesh": 28,
+            "translation": [
+                21.5,
+                -13.801904678344729,
+                -1.5
+            ]
+        },
+        {
+            "name": "pasted__CapShape",
+            "children": [
+                79
+            ],
+            "translation": [
+                -21.5,
+                32.80032730102539,
+                1.5
+            ]
+        },
+        {
+            "name": "pasted__CapShape:PIV",
+            "mesh": 29,
+            "translation": [
+                21.5,
+                -32.80032730102539,
+                -1.5
+            ]
+        }
+    ],
+    "meshes": [
+        {
+            "name": "pasted__bottleShapeShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "pasted__frontLabelShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 6,
+                        "POSITION": 7,
+                        "TANGENT": 8,
+                        "TEXCOORD_0": 9
+                    },
+                    "indices": 5,
+                    "mode": 4,
+                    "material": 1
+                }
+            ]
+        },
+        {
+            "name": "pasted__backLabelShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 11,
+                        "POSITION": 12,
+                        "TANGENT": 13,
+                        "TEXCOORD_0": 14
+                    },
+                    "indices": 10,
+                    "mode": 4,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "pasted__V_GeoShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 16,
+                        "POSITION": 17,
+                        "TANGENT": 18,
+                        "TEXCOORD_0": 19
+                    },
+                    "indices": 15,
+                    "mode": 4,
+                    "material": 3
+                }
+            ]
+        },
+        {
+            "name": "pasted__LiquidShapeShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 21,
+                        "POSITION": 22,
+                        "TANGENT": 23,
+                        "TEXCOORD_0": 24
+                    },
+                    "indices": 20,
+                    "mode": 4,
+                    "material": 4
+                }
+            ]
+        },
+        {
+            "name": "pasted__CapShapeShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 26,
+                        "POSITION": 27,
+                        "TANGENT": 28,
+                        "TEXCOORD_0": 29
+                    },
+                    "indices": 25,
+                    "mode": 4,
+                    "material": 3
+                },
+                {
+                    "attributes": {
+                        "NORMAL": 31,
+                        "POSITION": 32,
+                        "TANGENT": 33,
+                        "TEXCOORD_0": 34
+                    },
+                    "indices": 30,
+                    "mode": 4,
+                    "material": 5
+                },
+                {
+                    "attributes": {
+                        "NORMAL": 36,
+                        "POSITION": 37,
+                        "TANGENT": 38,
+                        "TEXCOORD_0": 39
+                    },
+                    "indices": 35,
+                    "mode": 4,
+                    "material": 6
+                }
+            ]
+        },
+        {
+            "name": "pasted__bottleShapeShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 41,
+                        "POSITION": 42,
+                        "TANGENT": 43,
+                        "TEXCOORD_0": 44
+                    },
+                    "indices": 40,
+                    "mode": 4,
+                    "material": 7
+                }
+            ]
+        },
+        {
+            "name": "pasted__frontLabelShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 46,
+                        "POSITION": 47,
+                        "TANGENT": 48,
+                        "TEXCOORD_0": 49
+                    },
+                    "indices": 45,
+                    "mode": 4,
+                    "material": 8
+                }
+            ]
+        },
+        {
+            "name": "pasted__backLabelShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 51,
+                        "POSITION": 52,
+                        "TANGENT": 53,
+                        "TEXCOORD_0": 54
+                    },
+                    "indices": 50,
+                    "mode": 4,
+                    "material": 9
+                }
+            ]
+        },
+        {
+            "name": "pasted__V_GeoShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 56,
+                        "POSITION": 57,
+                        "TANGENT": 58,
+                        "TEXCOORD_0": 59
+                    },
+                    "indices": 55,
+                    "mode": 4,
+                    "material": 10
+                }
+            ]
+        },
+        {
+            "name": "pasted__LiquidShapeShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 61,
+                        "POSITION": 62,
+                        "TANGENT": 63,
+                        "TEXCOORD_0": 64
+                    },
+                    "indices": 60,
+                    "mode": 4,
+                    "material": 11
+                }
+            ]
+        },
+        {
+            "name": "pasted__CapShapeShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 66,
+                        "POSITION": 67,
+                        "TANGENT": 68,
+                        "TEXCOORD_0": 69
+                    },
+                    "indices": 65,
+                    "mode": 4,
+                    "material": 10
+                },
+                {
+                    "attributes": {
+                        "NORMAL": 71,
+                        "POSITION": 72,
+                        "TANGENT": 73,
+                        "TEXCOORD_0": 74
+                    },
+                    "indices": 70,
+                    "mode": 4,
+                    "material": 12
+                },
+                {
+                    "attributes": {
+                        "NORMAL": 76,
+                        "POSITION": 77,
+                        "TANGENT": 78,
+                        "TEXCOORD_0": 79
+                    },
+                    "indices": 75,
+                    "mode": 4,
+                    "material": 6
+                }
+            ]
+        },
+        {
+            "name": "bottleShapeShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 81,
+                        "POSITION": 82,
+                        "TANGENT": 83,
+                        "TEXCOORD_0": 84
+                    },
+                    "indices": 80,
+                    "mode": 4,
+                    "material": 13
+                }
+            ]
+        },
+        {
+            "name": "frontLabelShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 86,
+                        "POSITION": 87,
+                        "TANGENT": 88,
+                        "TEXCOORD_0": 89
+                    },
+                    "indices": 85,
+                    "mode": 4,
+                    "material": 14
+                }
+            ]
+        },
+        {
+            "name": "backLabelShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 91,
+                        "POSITION": 92,
+                        "TANGENT": 93,
+                        "TEXCOORD_0": 94
+                    },
+                    "indices": 90,
+                    "mode": 4,
+                    "material": 15
+                }
+            ]
+        },
+        {
+            "name": "V_GeoShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 96,
+                        "POSITION": 97,
+                        "TANGENT": 98,
+                        "TEXCOORD_0": 99
+                    },
+                    "indices": 95,
+                    "mode": 4,
+                    "material": 16
+                }
+            ]
+        },
+        {
+            "name": "LiquidShapeShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 101,
+                        "POSITION": 102,
+                        "TANGENT": 103,
+                        "TEXCOORD_0": 104
+                    },
+                    "indices": 100,
+                    "mode": 4,
+                    "material": 17
+                }
+            ]
+        },
+        {
+            "name": "CapShapeShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 106,
+                        "POSITION": 107,
+                        "TANGENT": 108,
+                        "TEXCOORD_0": 109
+                    },
+                    "indices": 105,
+                    "mode": 4,
+                    "material": 16
+                },
+                {
+                    "attributes": {
+                        "NORMAL": 111,
+                        "POSITION": 112,
+                        "TANGENT": 113,
+                        "TEXCOORD_0": 114
+                    },
+                    "indices": 110,
+                    "mode": 4,
+                    "material": 18
+                },
+                {
+                    "attributes": {
+                        "NORMAL": 116,
+                        "POSITION": 117,
+                        "TANGENT": 118,
+                        "TEXCOORD_0": 119
+                    },
+                    "indices": 115,
+                    "mode": 4,
+                    "material": 6
+                }
+            ]
+        },
+        {
+            "name": "pasted__bottleShapeShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 121,
+                        "POSITION": 122,
+                        "TANGENT": 123,
+                        "TEXCOORD_0": 124
+                    },
+                    "indices": 120,
+                    "mode": 4,
+                    "material": 19
+                }
+            ]
+        },
+        {
+            "name": "pasted__frontLabelShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 126,
+                        "POSITION": 127,
+                        "TANGENT": 128,
+                        "TEXCOORD_0": 129
+                    },
+                    "indices": 125,
+                    "mode": 4,
+                    "material": 20
+                }
+            ]
+        },
+        {
+            "name": "pasted__backLabelShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 131,
+                        "POSITION": 132,
+                        "TANGENT": 133,
+                        "TEXCOORD_0": 134
+                    },
+                    "indices": 130,
+                    "mode": 4,
+                    "material": 21
+                }
+            ]
+        },
+        {
+            "name": "pasted__V_GeoShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 136,
+                        "POSITION": 137,
+                        "TANGENT": 138,
+                        "TEXCOORD_0": 139
+                    },
+                    "indices": 135,
+                    "mode": 4,
+                    "material": 22
+                }
+            ]
+        },
+        {
+            "name": "pasted__LiquidShapeShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 141,
+                        "POSITION": 142,
+                        "TANGENT": 143,
+                        "TEXCOORD_0": 144
+                    },
+                    "indices": 140,
+                    "mode": 4,
+                    "material": 23
+                }
+            ]
+        },
+        {
+            "name": "pasted__CapShapeShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 146,
+                        "POSITION": 147,
+                        "TANGENT": 148,
+                        "TEXCOORD_0": 149
+                    },
+                    "indices": 145,
+                    "mode": 4,
+                    "material": 22
+                },
+                {
+                    "attributes": {
+                        "NORMAL": 151,
+                        "POSITION": 152,
+                        "TANGENT": 153,
+                        "TEXCOORD_0": 154
+                    },
+                    "indices": 150,
+                    "mode": 4,
+                    "material": 24
+                },
+                {
+                    "attributes": {
+                        "NORMAL": 156,
+                        "POSITION": 157,
+                        "TANGENT": 158,
+                        "TEXCOORD_0": 159
+                    },
+                    "indices": 155,
+                    "mode": 4,
+                    "material": 6
+                }
+            ]
+        },
+        {
+            "name": "pasted__bottleShapeShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 161,
+                        "POSITION": 162,
+                        "TANGENT": 163,
+                        "TEXCOORD_0": 164
+                    },
+                    "indices": 160,
+                    "mode": 4,
+                    "material": 25
+                }
+            ]
+        },
+        {
+            "name": "pasted__frontLabelShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 166,
+                        "POSITION": 167,
+                        "TANGENT": 168,
+                        "TEXCOORD_0": 169
+                    },
+                    "indices": 165,
+                    "mode": 4,
+                    "material": 26
+                }
+            ]
+        },
+        {
+            "name": "pasted__backLabelShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 171,
+                        "POSITION": 172,
+                        "TANGENT": 173,
+                        "TEXCOORD_0": 174
+                    },
+                    "indices": 170,
+                    "mode": 4,
+                    "material": 27
+                }
+            ]
+        },
+        {
+            "name": "pasted__V_GeoShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 176,
+                        "POSITION": 177,
+                        "TANGENT": 178,
+                        "TEXCOORD_0": 179
+                    },
+                    "indices": 175,
+                    "mode": 4,
+                    "material": 28
+                }
+            ]
+        },
+        {
+            "name": "pasted__LiquidShapeShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 181,
+                        "POSITION": 182,
+                        "TANGENT": 183,
+                        "TEXCOORD_0": 184
+                    },
+                    "indices": 180,
+                    "mode": 4,
+                    "material": 29
+                }
+            ]
+        },
+        {
+            "name": "pasted__CapShapeShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 186,
+                        "POSITION": 187,
+                        "TANGENT": 188,
+                        "TEXCOORD_0": 189
+                    },
+                    "indices": 185,
+                    "mode": 4,
+                    "material": 28
+                },
+                {
+                    "attributes": {
+                        "NORMAL": 191,
+                        "POSITION": 192,
+                        "TANGENT": 193,
+                        "TEXCOORD_0": 194
+                    },
+                    "indices": 190,
+                    "mode": 4,
+                    "material": 30
+                },
+                {
+                    "attributes": {
+                        "NORMAL": 196,
+                        "POSITION": 197,
+                        "TANGENT": 198,
+                        "TEXCOORD_0": 199
+                    },
+                    "indices": 195,
+                    "mode": 4,
+                    "material": 6
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "pasted__aiStandardSurface1",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.029999999329447748
+            }
+        },
+        {
+            "name": "pasted__labelFront",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.20000000298023225
+            },
+            "alphaMode": "BLEND"
+        },
+        {
+            "name": "pasted__aiStandardSurface5",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.20000000298023225
+            }
+        },
+        {
+            "name": "pasted__lambert3",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        },
+        {
+            "name": "pasted__aiStandardSurface3",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.119999997317791
+            }
+        },
+        {
+            "name": "pasted__aiStandardSurface2",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.6000000238418579
+            }
+        },
+        {
+            "pbrMetallicRoughness": {}
+        },
+        {
+            "name": "pasted__aiStandardSurface10",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.029999999329447748
+            }
+        },
+        {
+            "name": "pasted__labelFront2",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 1
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.20000000298023225
+            },
+            "alphaMode": "BLEND"
+        },
+        {
+            "name": "pasted__aiStandardSurface13",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.20000000298023225
+            }
+        },
+        {
+            "name": "pasted__lambert5",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        },
+        {
+            "name": "pasted__aiStandardSurface12",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.119999997317791
+            }
+        },
+        {
+            "name": "pasted__aiStandardSurface11",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.6000000238418579
+            }
+        },
+        {
+            "name": "aiStandardSurface1",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.029999999329447748
+            }
+        },
+        {
+            "name": "labelFront",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 2
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.20000000298023225
+            },
+            "alphaMode": "BLEND"
+        },
+        {
+            "name": "aiStandardSurface5",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.20000000298023225
+            }
+        },
+        {
+            "name": "lambert3",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        },
+        {
+            "name": "aiStandardSurface3",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.119999997317791
+            }
+        },
+        {
+            "name": "aiStandardSurface2",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.6000000238418579
+            }
+        },
+        {
+            "name": "pasted__aiStandardSurface6",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.029999999329447748
+            }
+        },
+        {
+            "name": "pasted__labelFront1",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 3
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.20000000298023225
+            },
+            "alphaMode": "BLEND"
+        },
+        {
+            "name": "pasted__aiStandardSurface9",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.20000000298023225
+            }
+        },
+        {
+            "name": "pasted__lambert4",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        },
+        {
+            "name": "pasted__aiStandardSurface8",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.119999997317791
+            }
+        },
+        {
+            "name": "pasted__aiStandardSurface7",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.6000000238418579
+            }
+        },
+        {
+            "name": "pasted__aiStandardSurface14",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.029999999329447748
+            }
+        },
+        {
+            "name": "pasted__labelFront3",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 4
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.20000000298023225
+            },
+            "alphaMode": "BLEND"
+        },
+        {
+            "name": "pasted__aiStandardSurface17",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.20000000298023225
+            }
+        },
+        {
+            "name": "pasted__lambert6",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        },
+        {
+            "name": "pasted__aiStandardSurface16",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.119999997317791
+            }
+        },
+        {
+            "name": "pasted__aiStandardSurface15",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.6000000238418579
+            }
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 0,
+            "source": 1
+        },
+        {
+            "sampler": 0,
+            "source": 2
+        },
+        {
+            "sampler": 0,
+            "source": 3
+        },
+        {
+            "sampler": 0,
+            "source": 4
+        }
+    ],
+    "images": [
+        {
+            "uri": "SunFront.png"
+        },
+        {
+            "uri": "SirenFront.png"
+        },
+        {
+            "uri": "OracleFront.png"
+        },
+        {
+            "uri": "MagicianFront.png"
+        },
+        {
+            "uri": "FoolFront.png"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "accessors": [
+        {
+            "name": "pasted__bottleShapeShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 18360,
+            "max": [
+                6797
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__bottleShapeShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 6798,
+            "max": [
+                0.9999943971633912,
+                1.0,
+                0.9999943971633912
+            ],
+            "min": [
+                -0.9999943971633912,
+                -1.0,
+                -0.9999943971633912
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__bottleShapeShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 81576,
+            "componentType": 5126,
+            "count": 6798,
+            "max": [
+                -6.064995765686035,
+                33.91585922241211,
+                2.9350037574768068
+            ],
+            "min": [
+                -15.935003280639649,
+                -0.12043952941894533,
+                -6.935001373291016
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__bottleShapeShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 6798,
+            "max": [
+                0.9999861121177672,
+                1.0,
+                0.9999861121177672,
+                1.0
+            ],
+            "min": [
+                -0.9999861121177672,
+                -1.0,
+                -0.999986171722412,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__bottleShapeShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 6798,
+            "max": [
+                0.65625,
+                0.9999998807907105
+            ],
+            "min": [
+                0.3437500596046448,
+                0.3125
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__frontLabelShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 36720,
+            "componentType": 5123,
+            "count": 1248,
+            "max": [
+                257
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__frontLabelShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 163152,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                0.8726341128349304,
+                0.00030338799115270376,
+                0.9986313581466676
+            ],
+            "min": [
+                -0.8726341128349304,
+                -0.00037007700302638113,
+                -0.9986295104026794
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__frontLabelShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 166248,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                -6.539788722991943,
+                19.12228775024414,
+                2.9350037574768068
+            ],
+            "min": [
+                -14.20930862426758,
+                5.3523454666137699,
+                0.1274123191833496
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__frontLabelShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 108768,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                0.9986313581466676,
+                1.0,
+                0.8725671172142029,
+                1.0
+            ],
+            "min": [
+                -0.4885870814323426,
+                -1.0,
+                -0.8726341724395752,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__frontLabelShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 54384,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                0.9857760667800904,
+                0.9977405667304992
+            ],
+            "min": [
+                0.02468693256378174,
+                -0.0006110669928602874
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__backLabelShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 39216,
+            "componentType": 5123,
+            "count": 360,
+            "max": [
+                77
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__backLabelShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 169344,
+            "componentType": 5126,
+            "count": 78,
+            "max": [
+                0.4883759021759033,
+                4.5000000170603019e-8,
+                -0.5985502004623413
+            ],
+            "min": [
+                -0.8010852932929993,
+                -2.0100000597267354e-7,
+                -0.9986294507980348
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__backLabelShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 170280,
+            "componentType": 5126,
+            "count": 78,
+            "max": [
+                -8.30851936340332,
+                16.885251998901368,
+                -4.691486358642578
+            ],
+            "min": [
+                -15.14451789855957,
+                5.3523454666137699,
+                -6.935001373291016
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__backLabelShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 112896,
+            "componentType": 5126,
+            "count": 78,
+            "max": [
+                -0.5985502004623413,
+                0.000004223999894747976,
+                0.8010852932929993,
+                1.0
+            ],
+            "min": [
+                -0.9986294507980348,
+                -0.000004799000180355506,
+                -0.4883759319782257,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__backLabelShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 56448,
+            "componentType": 5126,
+            "count": 78,
+            "max": [
+                0.9920053482055664,
+                0.9996482133865356
+            ],
+            "min": [
+                0.005242913961410523,
+                0.0023535490036010744
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__V_GeoShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 39936,
+            "componentType": 5123,
+            "count": 1758,
+            "max": [
+                487
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__V_GeoShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 171216,
+            "componentType": 5126,
+            "count": 488,
+            "max": [
+                0.9781474471092224,
+                1.0,
+                0.978147566318512
+            ],
+            "min": [
+                -0.9781474471092224,
+                -1.0,
+                -0.9781477451324464
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__V_GeoShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 177072,
+            "componentType": 5126,
+            "count": 488,
+            "max": [
+                -9.647866249084473,
+                36.357547760009769,
+                -0.8887892961502075
+            ],
+            "min": [
+                -12.3006649017334,
+                34.097286224365237,
+                -3.0866098403930666
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__V_GeoShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 114144,
+            "componentType": 5126,
+            "count": 488,
+            "max": [
+                0.9781477451324464,
+                1.0,
+                0.17985105514526368,
+                1.0
+            ],
+            "min": [
+                -0.8461297154426575,
+                -1.0,
+                -0.20791321992874144,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__V_GeoShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 57072,
+            "componentType": 5126,
+            "count": 488,
+            "max": [
+                0.9682618975639344,
+                0.9980079531669616
+            ],
+            "min": [
+                0.0019326589535921813,
+                0.0019919280894100668
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__LiquidShapeShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 43452,
+            "componentType": 5123,
+            "count": 2148,
+            "max": [
+                493
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__LiquidShapeShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 182928,
+            "componentType": 5126,
+            "count": 494,
+            "max": [
+                0.9986295104026794,
+                1.0,
+                0.9986294507980348
+            ],
+            "min": [
+                -0.9986294507980348,
+                -1.0,
+                -0.9986294507980348
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__LiquidShapeShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 188856,
+            "componentType": 5126,
+            "count": 494,
+            "max": [
+                -6.321474075317383,
+                27.356510162353517,
+                2.678524971008301
+            ],
+            "min": [
+                -15.678524017333985,
+                0.2473001480102539,
+                -6.678524017333984
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__LiquidShapeShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 121952,
+            "componentType": 5126,
+            "count": 494,
+            "max": [
+                0.998818576335907,
+                0.9085220098495485,
+                0.9988185167312622,
+                1.0
+            ],
+            "min": [
+                -0.9988186359405518,
+                -0.06486361473798752,
+                -0.998818576335907,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__LiquidShapeShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 60976,
+            "componentType": 5126,
+            "count": 494,
+            "max": [
+                0.65625,
+                0.9999998807907105
+            ],
+            "min": [
+                0.3437500596046448,
+                0.3125
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__CapShapeShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 47748,
+            "componentType": 5123,
+            "count": 5568,
+            "max": [
+                960
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__CapShapeShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 194784,
+            "componentType": 5126,
+            "count": 961,
+            "max": [
+                0.9999060034751892,
+                1.0,
+                0.9999060034751892
+            ],
+            "min": [
+                -0.9999058842658996,
+                -0.9977867007255554,
+                -0.9999060034751892
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 206316,
+            "componentType": 5126,
+            "count": 961,
+            "max": [
+                -9.389089584350586,
+                34.37862396240235,
+                -0.3890899419784546
+            ],
+            "min": [
+                -12.610910415649414,
+                33.83905029296875,
+                -3.610909938812256
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 129856,
+            "componentType": 5126,
+            "count": 961,
+            "max": [
+                0.9997338056564332,
+                0.8124536871910095,
+                0.999733865261078,
+                1.0
+            ],
+            "min": [
+                -0.9997338056564332,
+                -0.6906641721725464,
+                -0.9997339248657228,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__CapShapeShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 64928,
+            "componentType": 5126,
+            "count": 961,
+            "max": [
+                0.6554994583129883,
+                0.3117493391036988
+            ],
+            "min": [
+                0.34450066089630129,
+                0.0007506010006181896
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__CapShapeShape#1/indices",
+            "bufferView": 0,
+            "byteOffset": 58884,
+            "componentType": 5123,
+            "count": 2880,
+            "max": [
+                1091
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__CapShapeShape#1/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 217848,
+            "componentType": 5126,
+            "count": 1092,
+            "max": [
+                0.9999144673347472,
+                0.0002722830104175955,
+                0.9999144077301024
+            ],
+            "min": [
+                -0.9999143481254578,
+                -0.7180772423744202,
+                -0.9999144077301024
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#1/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 230952,
+            "componentType": 5126,
+            "count": 1092,
+            "max": [
+                -9.828059196472168,
+                33.83905029296875,
+                -0.8280597925186157
+            ],
+            "min": [
+                -12.171939849853516,
+                31.578479766845704,
+                -3.171939611434937
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#1/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 145232,
+            "componentType": 5126,
+            "count": 1092,
+            "max": [
+                0.9999146461486816,
+                1.0,
+                0.9999147653579712,
+                1.0
+            ],
+            "min": [
+                -0.9999146461486816,
+                -0.9946275353431702,
+                -0.9999146461486816,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__CapShapeShape#1/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 72616,
+            "componentType": 5126,
+            "count": 1092,
+            "max": [
+                0.7394034266471863,
+                0.5048446655273438
+            ],
+            "min": [
+                0.34375011920928957,
+                5.99999978589949e-8
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__CapShapeShape#2/indices",
+            "bufferView": 0,
+            "byteOffset": 64644,
+            "componentType": 5123,
+            "count": 384,
+            "max": [
+                128
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__CapShapeShape#2/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 244056,
+            "componentType": 5126,
+            "count": 129,
+            "max": [
+                0.0,
+                -1.0,
+                0.00005704800059902482
+            ],
+            "min": [
+                0.0,
+                -1.0,
+                -0.00005704800059902482
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#2/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 245604,
+            "componentType": 5126,
+            "count": 129,
+            "max": [
+                -9.83200740814209,
+                31.578479766845704,
+                -0.8320082426071167
+            ],
+            "min": [
+                -12.167991638183594,
+                31.578479766845704,
+                -3.1679911613464357
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#2/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 162704,
+            "componentType": 5126,
+            "count": 129,
+            "max": [
+                0.9999144077301024,
+                0.00002175100053136703,
+                0.999914288520813,
+                -1.0
+            ],
+            "min": [
+                -0.9999144077301024,
+                -0.00005704299837816507,
+                -0.9999144673347472,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__CapShapeShape#2/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 81352,
+            "componentType": 5126,
+            "count": 129,
+            "max": [
+                0.6215523481369019,
+                0.4929031729698181
+            ],
+            "min": [
+                0.3754585087299347,
+                0.4809621572494507
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__bottleShapeShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 65412,
+            "componentType": 5123,
+            "count": 18360,
+            "max": [
+                6797
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__bottleShapeShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 247152,
+            "componentType": 5126,
+            "count": 6798,
+            "max": [
+                0.9999334812164308,
+                1.0,
+                0.9999336004257202
+            ],
+            "min": [
+                -0.9999334812164308,
+                -1.0,
+                -0.9999336004257202
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__bottleShapeShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 328728,
+            "componentType": 5126,
+            "count": 6798,
+            "max": [
+                26.4368896484375,
+                33.91585922241211,
+                6.436890602111816
+            ],
+            "min": [
+                16.5631103515625,
+                -0.12043952941894533,
+                -3.436888694763184
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__bottleShapeShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 164768,
+            "componentType": 5126,
+            "count": 6798,
+            "max": [
+                0.9997681975364684,
+                1.0,
+                0.9997682571411132,
+                1.0
+            ],
+            "min": [
+                -0.9997681975364684,
+                -1.0,
+                -0.9997681975364684,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__bottleShapeShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 82384,
+            "componentType": 5126,
+            "count": 6798,
+            "max": [
+                0.65625,
+                0.9999998807907105
+            ],
+            "min": [
+                0.3437500596046448,
+                0.3125
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__frontLabelShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 102132,
+            "componentType": 5123,
+            "count": 1248,
+            "max": [
+                257
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__frontLabelShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 410304,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                0.9321104288101196,
+                0.0004319250001572073,
+                0.9990482926368712
+            ],
+            "min": [
+                -0.9321104288101196,
+                -0.0007400040049105883,
+                -0.9990482926368712
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__frontLabelShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 413400,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                24.15511703491211,
+                19.12228775024414,
+                6.436890602111816
+            ],
+            "min": [
+                16.78711700439453,
+                5.3523454666137699,
+                2.985966205596924
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__frontLabelShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 273536,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                0.9990482926368712,
+                1.0,
+                0.9321104884147644,
+                1.0
+            ],
+            "min": [
+                -0.8768551349639893,
+                -1.0,
+                -0.48123639822006228,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__frontLabelShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 136768,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                0.9857760667800904,
+                0.9977405667304992
+            ],
+            "min": [
+                0.02468693256378174,
+                -0.0006110669928602874
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__backLabelShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 104628,
+            "componentType": 5123,
+            "count": 360,
+            "max": [
+                77
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__backLabelShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 416496,
+            "componentType": 5126,
+            "count": 78,
+            "max": [
+                0.8765923976898193,
+                7.000000135093387e-9,
+                -0.481233686208725
+            ],
+            "min": [
+                -0.3621762990951538,
+                -4.270000033557153e-7,
+                -0.9990482926368712
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__backLabelShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 417432,
+            "componentType": 5126,
+            "count": 78,
+            "max": [
+                25.97876358032227,
+                16.885251998901368,
+                -0.5884819030761719
+            ],
+            "min": [
+                19.41152000427246,
+                5.3523454666137699,
+                -3.436888694763184
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__backLabelShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 277664,
+            "componentType": 5126,
+            "count": 78,
+            "max": [
+                -0.481233686208725,
+                0.000004223999894747976,
+                0.3621762990951538,
+                1.0
+            ],
+            "min": [
+                -0.9990482926368712,
+                -0.000004799000180355506,
+                -0.8765923380851746,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__backLabelShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 138832,
+            "componentType": 5126,
+            "count": 78,
+            "max": [
+                0.9920053482055664,
+                0.9996482133865356
+            ],
+            "min": [
+                0.005242913961410523,
+                0.0023535490036010744
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__V_GeoShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 105348,
+            "componentType": 5123,
+            "count": 1758,
+            "max": [
+                487
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__V_GeoShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 418368,
+            "componentType": 5126,
+            "count": 488,
+            "max": [
+                0.9396954774856569,
+                1.0,
+                0.939692497253418
+            ],
+            "min": [
+                -0.9396954774856569,
+                -1.0,
+                -0.9396917819976808
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__V_GeoShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 424224,
+            "componentType": 5126,
+            "count": 488,
+            "max": [
+                22.91402053833008,
+                36.357547760009769,
+                2.746260166168213
+            ],
+            "min": [
+                20.11659049987793,
+                34.097286224365237,
+                0.3018762767314911
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__V_GeoShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 278912,
+            "componentType": 5126,
+            "count": 488,
+            "max": [
+                0.9396941661834716,
+                1.0,
+                0.3420235812664032,
+                1.0
+            ],
+            "min": [
+                -0.8128659129142761,
+                -1.0,
+                -0.2958621382713318,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__V_GeoShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 139456,
+            "componentType": 5126,
+            "count": 488,
+            "max": [
+                0.9682618975639344,
+                0.9980079531669616
+            ],
+            "min": [
+                0.0019326589535921813,
+                0.0019919280894100668
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__LiquidShapeShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 108864,
+            "componentType": 5123,
+            "count": 2148,
+            "max": [
+                493
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__LiquidShapeShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 430080,
+            "componentType": 5126,
+            "count": 494,
+            "max": [
+                0.9961950182914734,
+                1.0,
+                0.9961950182914734
+            ],
+            "min": [
+                -0.9961948990821838,
+                -1.0,
+                -0.9961949586868286
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__LiquidShapeShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 436008,
+            "componentType": 5126,
+            "count": 494,
+            "max": [
+                26.167116165161138,
+                27.356510162353517,
+                6.167118549346924
+            ],
+            "min": [
+                16.832881927490236,
+                0.2473001480102539,
+                -3.167116641998291
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__LiquidShapeShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 286720,
+            "componentType": 5126,
+            "count": 494,
+            "max": [
+                0.9966004490852356,
+                0.9085235595703124,
+                0.9966004490852356,
+                1.0
+            ],
+            "min": [
+                -0.9966004490852356,
+                -0.06486321985721588,
+                -0.99817556142807,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__LiquidShapeShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 143360,
+            "componentType": 5126,
+            "count": 494,
+            "max": [
+                0.65625,
+                0.9999998807907105
+            ],
+            "min": [
+                0.3437500596046448,
+                0.3125
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__CapShapeShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 113160,
+            "componentType": 5123,
+            "count": 5568,
+            "max": [
+                960
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__CapShapeShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 441936,
+            "componentType": 5126,
+            "count": 961,
+            "max": [
+                0.9990397691726684,
+                1.0,
+                0.9990397691726684
+            ],
+            "min": [
+                -0.9990398287773132,
+                -0.9977864027023317,
+                -0.9990398287773132
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 453468,
+            "componentType": 5126,
+            "count": 961,
+            "max": [
+                23.109514236450197,
+                34.37862396240235,
+                3.1095147132873537
+            ],
+            "min": [
+                19.89048576354981,
+                33.83905029296875,
+                -0.10951387882232666
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 294624,
+            "componentType": 5126,
+            "count": 961,
+            "max": [
+                0.9996315240859984,
+                0.812501072883606,
+                0.9996313452720642,
+                1.0
+            ],
+            "min": [
+                -0.9996314644813538,
+                -0.6907288432121277,
+                -0.9996313452720642,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__CapShapeShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 147312,
+            "componentType": 5126,
+            "count": 961,
+            "max": [
+                0.6554994583129883,
+                0.3117493391036988
+            ],
+            "min": [
+                0.34450066089630129,
+                0.0007506010006181896
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__CapShapeShape#1/indices",
+            "bufferView": 0,
+            "byteOffset": 124296,
+            "componentType": 5123,
+            "count": 2880,
+            "max": [
+                1091
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__CapShapeShape#1/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 465000,
+            "componentType": 5126,
+            "count": 1092,
+            "max": [
+                0.9999845623970032,
+                0.0002740909985732287,
+                0.9999845623970032
+            ],
+            "min": [
+                -0.9999844431877136,
+                -0.7180746793746948,
+                -0.9999844431877136
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#1/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 478104,
+            "componentType": 5126,
+            "count": 1092,
+            "max": [
+                22.67092514038086,
+                33.83905029296875,
+                2.67092514038086
+            ],
+            "min": [
+                20.32907485961914,
+                31.578479766845704,
+                0.3290752172470093
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#1/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 310000,
+            "componentType": 5126,
+            "count": 1092,
+            "max": [
+                0.999050498008728,
+                1.0,
+                0.9990507364273072,
+                1.0
+            ],
+            "min": [
+                -0.9990505576133728,
+                -0.9946274757385254,
+                -0.9990503787994384,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__CapShapeShape#1/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 155000,
+            "componentType": 5126,
+            "count": 1092,
+            "max": [
+                0.7394034266471863,
+                0.5048446655273438
+            ],
+            "min": [
+                0.34375011920928957,
+                5.99999978589949e-8
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__CapShapeShape#2/indices",
+            "bufferView": 0,
+            "byteOffset": 130056,
+            "componentType": 5123,
+            "count": 384,
+            "max": [
+                128
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__CapShapeShape#2/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 491208,
+            "componentType": 5126,
+            "count": 129,
+            "max": [
+                0.0,
+                -1.0,
+                0.00005704800059902482
+            ],
+            "min": [
+                0.0,
+                -1.0,
+                -0.00005704800059902482
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#2/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 492756,
+            "componentType": 5126,
+            "count": 129,
+            "max": [
+                22.66697883605957,
+                31.578479766845704,
+                2.666980266571045
+            ],
+            "min": [
+                20.3330192565918,
+                31.578479766845704,
+                0.3330204486846924
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#2/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 327472,
+            "componentType": 5126,
+            "count": 129,
+            "max": [
+                0.9999844431877136,
+                0.000048770998546388,
+                0.9999843835830689,
+                -1.0
+            ],
+            "min": [
+                -0.9999844431877136,
+                -0.000056384000345133248,
+                -0.9999845027923584,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__CapShapeShape#2/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 163736,
+            "componentType": 5126,
+            "count": 129,
+            "max": [
+                0.6215523481369019,
+                0.4929031729698181
+            ],
+            "min": [
+                0.3754585087299347,
+                0.4809621572494507
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "bottleShapeShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 130824,
+            "componentType": 5123,
+            "count": 18360,
+            "max": [
+                6797
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "bottleShapeShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 494304,
+            "componentType": 5126,
+            "count": 6798,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "bottleShapeShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 575880,
+            "componentType": 5126,
+            "count": 6798,
+            "max": [
+                4.941778182983398,
+                33.91585922241211,
+                0.9417777061462402
+            ],
+            "min": [
+                -4.94177770614624,
+                -0.12043952941894533,
+                -8.941776275634766
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "bottleShapeShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 329536,
+            "componentType": 5126,
+            "count": 6798,
+            "max": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "bottleShapeShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 164768,
+            "componentType": 5126,
+            "count": 6798,
+            "max": [
+                0.65625,
+                0.9999998807907105
+            ],
+            "min": [
+                0.3437500596046448,
+                0.3125
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "frontLabelShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 167544,
+            "componentType": 5123,
+            "count": 1248,
+            "max": [
+                257
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "frontLabelShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 657456,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                0.7520267367362976,
+                0.00009252600284526125,
+                1.0
+            ],
+            "min": [
+                -0.7520264387130737,
+                -0.00009270000009564684,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "frontLabelShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 660552,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                3.920430898666382,
+                19.12228775024414,
+                0.9417777061462402
+            ],
+            "min": [
+                -3.920430660247803,
+                5.3523454666137699,
+                -0.9917478561401368
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "frontLabelShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 438304,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                1.0,
+                1.0,
+                0.7520266175270081,
+                1.0
+            ],
+            "min": [
+                -0.6592402458190918,
+                -1.0,
+                -0.7520262598991394,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "frontLabelShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 219152,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                0.9857760667800904,
+                0.9977405667304992
+            ],
+            "min": [
+                0.02468693256378174,
+                -0.0006110669928602874
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "backLabelShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 170040,
+            "componentType": 5123,
+            "count": 360,
+            "max": [
+                77
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "backLabelShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 663648,
+            "componentType": 5126,
+            "count": 78,
+            "max": [
+                0.6591342091560364,
+                3.999999975690116e-8,
+                -0.7520249485969544
+            ],
+            "min": [
+                -0.6591348052024841,
+                -2.080000029991425e-7,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "backLabelShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 664584,
+            "componentType": 5126,
+            "count": 78,
+            "max": [
+                3.494359016418457,
+                16.885251998901368,
+                -7.494358539581299
+            ],
+            "min": [
+                -3.494359016418457,
+                5.3523454666137699,
+                -8.94177532196045
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "backLabelShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 442432,
+            "componentType": 5126,
+            "count": 78,
+            "max": [
+                -0.7520248889923096,
+                0.000004223999894747976,
+                0.6591348052024841,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -0.000004798000190930907,
+                -0.6591342687606812,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "backLabelShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 221216,
+            "componentType": 5126,
+            "count": 78,
+            "max": [
+                0.9920053482055664,
+                0.9996482133865356
+            ],
+            "min": [
+                0.005242913961410523,
+                0.0023535490036010744
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "V_GeoShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 170760,
+            "componentType": 5123,
+            "count": 1758,
+            "max": [
+                487
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "V_GeoShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 665520,
+            "componentType": 5126,
+            "count": 488,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "V_GeoShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 671376,
+            "componentType": 5126,
+            "count": 488,
+            "max": [
+                1.1927130222320557,
+                36.357547760009769,
+                -3.1078696250915529
+            ],
+            "min": [
+                -1.1474841833114625,
+                34.097286224365237,
+                -4.857366561889648
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "V_GeoShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 443680,
+            "componentType": 5126,
+            "count": 488,
+            "max": [
+                1.0,
+                1.0,
+                0.0,
+                1.0
+            ],
+            "min": [
+                -0.865028977394104,
+                -1.0,
+                0.0,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "V_GeoShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 221840,
+            "componentType": 5126,
+            "count": 488,
+            "max": [
+                0.9682618975639344,
+                0.9980079531669616
+            ],
+            "min": [
+                0.0019326589535921813,
+                0.0019919280894100668
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "LiquidShapeShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 174276,
+            "componentType": 5123,
+            "count": 2148,
+            "max": [
+                493
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "LiquidShapeShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 677232,
+            "componentType": 5126,
+            "count": 494,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "LiquidShapeShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 683160,
+            "componentType": 5126,
+            "count": 494,
+            "max": [
+                4.6849470138549809,
+                27.356510162353517,
+                0.6849470138549805
+            ],
+            "min": [
+                -4.684946537017822,
+                0.2473001480102539,
+                -8.684946060180664
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "LiquidShapeShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 451488,
+            "componentType": 5126,
+            "count": 494,
+            "max": [
+                1.0,
+                0.9085202217102052,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -0.06486445665359497,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "LiquidShapeShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 225744,
+            "componentType": 5126,
+            "count": 494,
+            "max": [
+                0.65625,
+                0.9999998807907105
+            ],
+            "min": [
+                0.3437500596046448,
+                0.3125
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "CapShapeShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 178572,
+            "componentType": 5123,
+            "count": 5568,
+            "max": [
+                960
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "CapShapeShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 689088,
+            "componentType": 5126,
+            "count": 961,
+            "max": [
+                0.9999916553497316,
+                1.0,
+                0.9999915957450868
+            ],
+            "min": [
+                -0.9999916553497316,
+                -0.9977869987487792,
+                -0.9999915957450868
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "CapShapeShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 700620,
+            "componentType": 5126,
+            "count": 961,
+            "max": [
+                1.6110482215881348,
+                34.37862396240235,
+                -2.3889520168304445
+            ],
+            "min": [
+                -1.6110477447509766,
+                33.83905029296875,
+                -5.611047744750977
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "CapShapeShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 459392,
+            "componentType": 5126,
+            "count": 961,
+            "max": [
+                1.0,
+                0.8124408721923828,
+                0.9995381832122804,
+                1.0
+            ],
+            "min": [
+                -0.9995383620262146,
+                -0.6906808614730835,
+                -0.9995381236076356,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "CapShapeShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 229696,
+            "componentType": 5126,
+            "count": 961,
+            "max": [
+                0.6554994583129883,
+                0.3117493391036988
+            ],
+            "min": [
+                0.34450066089630129,
+                0.0007506010006181896
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "CapShapeShape#1/indices",
+            "bufferView": 0,
+            "byteOffset": 189708,
+            "componentType": 5123,
+            "count": 2880,
+            "max": [
+                1091
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "CapShapeShape#1/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 712152,
+            "componentType": 5126,
+            "count": 1092,
+            "max": [
+                1.0,
+                0.0002691260015126318,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -0.7180684804916382,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "CapShapeShape#1/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 725256,
+            "componentType": 5126,
+            "count": 1092,
+            "max": [
+                1.1720407009124756,
+                33.83905029296875,
+                -2.827959299087525
+            ],
+            "min": [
+                -1.1720404624938965,
+                31.578479766845704,
+                -5.172039985656738
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "CapShapeShape#1/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 474768,
+            "componentType": 5126,
+            "count": 1092,
+            "max": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -0.9946268796920776,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "CapShapeShape#1/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 237384,
+            "componentType": 5126,
+            "count": 1092,
+            "max": [
+                0.7394034266471863,
+                0.5048446655273438
+            ],
+            "min": [
+                0.34375011920928957,
+                5.99999978589949e-8
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "CapShapeShape#2/indices",
+            "bufferView": 0,
+            "byteOffset": 195468,
+            "componentType": 5123,
+            "count": 384,
+            "max": [
+                128
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "CapShapeShape#2/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 738360,
+            "componentType": 5126,
+            "count": 129,
+            "max": [
+                0.0,
+                -1.0,
+                0.00005704800059902482
+            ],
+            "min": [
+                0.0,
+                -1.0,
+                -0.00005704800059902482
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "CapShapeShape#2/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 739908,
+            "componentType": 5126,
+            "count": 129,
+            "max": [
+                1.168092131614685,
+                31.578479766845704,
+                -2.831907987594605
+            ],
+            "min": [
+                -1.1680916547775269,
+                31.578479766845704,
+                -5.168091297149658
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "CapShapeShape#2/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 492240,
+            "componentType": 5126,
+            "count": 129,
+            "max": [
+                1.0,
+                0.00005459100066218525,
+                1.0,
+                -1.0
+            ],
+            "min": [
+                -1.0,
+                -0.000052704999689012769,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "CapShapeShape#2/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 246120,
+            "componentType": 5126,
+            "count": 129,
+            "max": [
+                0.6215523481369019,
+                0.4929031729698181
+            ],
+            "min": [
+                0.3754585087299347,
+                0.4809621572494507
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__bottleShapeShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 196236,
+            "componentType": 5123,
+            "count": 18360,
+            "max": [
+                6797
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__bottleShapeShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 741456,
+            "componentType": 5126,
+            "count": 6798,
+            "max": [
+                0.9999943971633912,
+                1.0,
+                0.9999943971633912
+            ],
+            "min": [
+                -0.9999943971633912,
+                -1.0,
+                -0.9999943971633912
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__bottleShapeShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 823032,
+            "componentType": 5126,
+            "count": 6798,
+            "max": [
+                15.935002326965332,
+                33.91585922241211,
+                2.9350037574768068
+            ],
+            "min": [
+                6.064996242523193,
+                -0.12043952941894533,
+                -6.935002326965332
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__bottleShapeShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 494304,
+            "componentType": 5126,
+            "count": 6798,
+            "max": [
+                0.9999107122421264,
+                1.0,
+                0.999911606311798,
+                1.0
+            ],
+            "min": [
+                -0.9999107122421264,
+                -1.0,
+                -0.9999107122421264,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__bottleShapeShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 247152,
+            "componentType": 5126,
+            "count": 6798,
+            "max": [
+                0.65625,
+                0.9999998807907105
+            ],
+            "min": [
+                0.3437500596046448,
+                0.3125
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__frontLabelShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 232956,
+            "componentType": 5123,
+            "count": 1248,
+            "max": [
+                257
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__frontLabelShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 904608,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                0.8726345300674439,
+                0.00036985299084335566,
+                0.9986313581466676
+            ],
+            "min": [
+                -0.8726344704627991,
+                -0.0001849959953688085,
+                -0.9986295700073242
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__frontLabelShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 907704,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                14.20930862426758,
+                19.12228775024414,
+                2.9350037574768068
+            ],
+            "min": [
+                6.539789199829102,
+                5.3523454666137699,
+                0.1274113655090332
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__frontLabelShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 603072,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                0.9986313581466676,
+                1.0,
+                0.8726345300674439,
+                1.0
+            ],
+            "min": [
+                -0.8011733293533325,
+                -1.0,
+                -0.5985510945320129,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__frontLabelShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 301536,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                0.9857760667800904,
+                0.9977405667304992
+            ],
+            "min": [
+                0.02468693256378174,
+                -0.0006110669928602874
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__backLabelShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 235452,
+            "componentType": 5123,
+            "count": 360,
+            "max": [
+                77
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__backLabelShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 910800,
+            "componentType": 5126,
+            "count": 78,
+            "max": [
+                0.801085889339447,
+                1.0099999769863645e-7,
+                -0.598549485206604
+            ],
+            "min": [
+                -0.48837560415267947,
+                -1.260000033198594e-7,
+                -0.9986295700073242
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__backLabelShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 911736,
+            "componentType": 5126,
+            "count": 78,
+            "max": [
+                15.144516944885254,
+                16.885251998901368,
+                -4.69148063659668
+            ],
+            "min": [
+                8.308520317077637,
+                5.3523454666137699,
+                -6.935002326965332
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__backLabelShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 607200,
+            "componentType": 5126,
+            "count": 78,
+            "max": [
+                -0.598549485206604,
+                0.000004223999894747976,
+                0.48837560415267947,
+                1.0
+            ],
+            "min": [
+                -0.9986295104026794,
+                -0.000004799000180355506,
+                -0.8010858297348023,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__backLabelShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 303600,
+            "componentType": 5126,
+            "count": 78,
+            "max": [
+                0.9920053482055664,
+                0.9996482133865356
+            ],
+            "min": [
+                0.005242913961410523,
+                0.0023535490036010744
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__V_GeoShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 236172,
+            "componentType": 5123,
+            "count": 1758,
+            "max": [
+                487
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__V_GeoShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 912672,
+            "componentType": 5126,
+            "count": 488,
+            "max": [
+                0.9781473875045776,
+                1.0,
+                0.9781476855278016
+            ],
+            "min": [
+                -0.9781474471092224,
+                -1.0,
+                -0.978147566318512
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__V_GeoShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 918528,
+            "componentType": 5126,
+            "count": 488,
+            "max": [
+                12.344905853271485,
+                36.357547760009769,
+                -0.8793859481811523
+            ],
+            "min": [
+                9.692106246948244,
+                34.097286224365237,
+                -3.077206611633301
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__V_GeoShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 608448,
+            "componentType": 5126,
+            "count": 488,
+            "max": [
+                0.9781479835510254,
+                1.0,
+                0.20791321992874144,
+                1.0
+            ],
+            "min": [
+                -0.8461307883262634,
+                -1.0,
+                -0.17985419929027558,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__V_GeoShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 304224,
+            "componentType": 5126,
+            "count": 488,
+            "max": [
+                0.9682618975639344,
+                0.9980079531669616
+            ],
+            "min": [
+                0.0019326589535921813,
+                0.0019919280894100668
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__LiquidShapeShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 239688,
+            "componentType": 5123,
+            "count": 2148,
+            "max": [
+                493
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__LiquidShapeShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 924384,
+            "componentType": 5126,
+            "count": 494,
+            "max": [
+                0.9986294507980348,
+                1.0,
+                0.9986294507980348
+            ],
+            "min": [
+                -0.9986294507980348,
+                -1.0,
+                -0.9986295104026794
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__LiquidShapeShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 930312,
+            "componentType": 5126,
+            "count": 494,
+            "max": [
+                15.678524017333985,
+                27.356510162353517,
+                2.678525924682617
+            ],
+            "min": [
+                6.321475505828857,
+                0.2473001480102539,
+                -6.678524017333984
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__LiquidShapeShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 616256,
+            "componentType": 5126,
+            "count": 494,
+            "max": [
+                0.9986294507980348,
+                0.9085217118263244,
+                0.9986294507980348,
+                1.0
+            ],
+            "min": [
+                -0.9986294507980348,
+                -0.0648634061217308,
+                -0.9986294507980348,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__LiquidShapeShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 308128,
+            "componentType": 5126,
+            "count": 494,
+            "max": [
+                0.65625,
+                0.9999998807907105
+            ],
+            "min": [
+                0.3437500596046448,
+                0.3125
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__CapShapeShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 243984,
+            "componentType": 5123,
+            "count": 5568,
+            "max": [
+                960
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__CapShapeShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 936240,
+            "componentType": 5126,
+            "count": 961,
+            "max": [
+                0.9999060034751892,
+                1.0,
+                0.9999059438705444
+            ],
+            "min": [
+                -0.9999060034751892,
+                -0.9977867007255554,
+                -0.9999058842658996
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 947772,
+            "componentType": 5126,
+            "count": 961,
+            "max": [
+                12.610909461975098,
+                34.37862396240235,
+                -0.3890899419784546
+            ],
+            "min": [
+                9.389090538024905,
+                33.83905029296875,
+                -3.6109094619750978
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 624160,
+            "componentType": 5126,
+            "count": 961,
+            "max": [
+                0.9999808669090272,
+                0.8124610185623169,
+                0.9992783665657044,
+                1.0
+            ],
+            "min": [
+                -0.9992796778678894,
+                -0.6907000541687012,
+                -0.9992790818214417,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__CapShapeShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 312080,
+            "componentType": 5126,
+            "count": 961,
+            "max": [
+                0.6554994583129883,
+                0.3117493391036988
+            ],
+            "min": [
+                0.34450066089630129,
+                0.0007506010006181896
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__CapShapeShape#1/indices",
+            "bufferView": 0,
+            "byteOffset": 255120,
+            "componentType": 5123,
+            "count": 2880,
+            "max": [
+                1091
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__CapShapeShape#1/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 959304,
+            "componentType": 5126,
+            "count": 1092,
+            "max": [
+                0.9999144673347472,
+                0.0002722819917835295,
+                0.9999144077301024
+            ],
+            "min": [
+                -0.9999144077301024,
+                -0.7180768847465515,
+                -0.9999144077301024
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#1/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 972408,
+            "componentType": 5126,
+            "count": 1092,
+            "max": [
+                12.171939849853516,
+                33.83905029296875,
+                -0.8280602693557739
+            ],
+            "min": [
+                9.828060150146485,
+                31.578479766845704,
+                -3.171939849853516
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#1/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 639536,
+            "componentType": 5126,
+            "count": 1092,
+            "max": [
+                0.9999143481254578,
+                1.0,
+                0.9999143481254578,
+                1.0
+            ],
+            "min": [
+                -0.9999143481254578,
+                -0.9946279525756836,
+                -0.9999143481254578,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__CapShapeShape#1/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 319768,
+            "componentType": 5126,
+            "count": 1092,
+            "max": [
+                0.7394034266471863,
+                0.5048446655273438
+            ],
+            "min": [
+                0.34375011920928957,
+                5.99999978589949e-8
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__CapShapeShape#2/indices",
+            "bufferView": 0,
+            "byteOffset": 260880,
+            "componentType": 5123,
+            "count": 384,
+            "max": [
+                128
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__CapShapeShape#2/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 985512,
+            "componentType": 5126,
+            "count": 129,
+            "max": [
+                0.0,
+                -1.0,
+                0.00005704800059902482
+            ],
+            "min": [
+                0.0,
+                -1.0,
+                -0.00005704800059902482
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#2/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 987060,
+            "componentType": 5126,
+            "count": 129,
+            "max": [
+                12.167991638183594,
+                31.578479766845704,
+                -0.832007884979248
+            ],
+            "min": [
+                9.832009315490725,
+                31.578479766845704,
+                -3.1679911613464357
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#2/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 657008,
+            "componentType": 5126,
+            "count": 129,
+            "max": [
+                0.999914288520813,
+                0.00005704299837816507,
+                0.9999217987060548,
+                -1.0
+            ],
+            "min": [
+                -0.9999144077301024,
+                -0.00005704299837816507,
+                -0.9910292625427246,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__CapShapeShape#2/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 328504,
+            "componentType": 5126,
+            "count": 129,
+            "max": [
+                0.6215523481369019,
+                0.4929031729698181
+            ],
+            "min": [
+                0.3754585087299347,
+                0.4809621572494507
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__bottleShapeShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 261648,
+            "componentType": 5123,
+            "count": 18360,
+            "max": [
+                6797
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__bottleShapeShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 988608,
+            "componentType": 5126,
+            "count": 6798,
+            "max": [
+                0.9999334812164308,
+                1.0,
+                0.9999336004257202
+            ],
+            "min": [
+                -0.9999337196350098,
+                -1.0,
+                -0.9999335408210754
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__bottleShapeShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 1070184,
+            "componentType": 5126,
+            "count": 6798,
+            "max": [
+                -16.5631103515625,
+                33.91585922241211,
+                6.436890125274658
+            ],
+            "min": [
+                -26.4368896484375,
+                -0.12043952941894533,
+                -3.4368863105773927
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__bottleShapeShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 659072,
+            "componentType": 5126,
+            "count": 6798,
+            "max": [
+                0.9999598860740662,
+                1.0,
+                0.9999598860740662,
+                1.0
+            ],
+            "min": [
+                -0.9999598860740662,
+                -1.0,
+                -0.9999598860740662,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__bottleShapeShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 329536,
+            "componentType": 5126,
+            "count": 6798,
+            "max": [
+                0.65625,
+                0.9999998807907105
+            ],
+            "min": [
+                0.3437500596046448,
+                0.3125
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__frontLabelShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 298368,
+            "componentType": 5123,
+            "count": 1248,
+            "max": [
+                257
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__frontLabelShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 1151760,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                0.9321104288101196,
+                0.0007395989960059524,
+                0.9990482926368712
+            ],
+            "min": [
+                -0.9321103692054749,
+                -0.00036993599496781826,
+                -0.9990482926368712
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__frontLabelShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 1154856,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                -16.78711700439453,
+                19.12228775024414,
+                6.436890125274658
+            ],
+            "min": [
+                -24.15511703491211,
+                5.3523454666137699,
+                2.9859671592712404
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__frontLabelShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 767840,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                0.9990482926368712,
+                1.0,
+                0.9320479035377502,
+                1.0
+            ],
+            "min": [
+                -0.3623589277267456,
+                -1.0,
+                -0.9321103692054749,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__frontLabelShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 383920,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                0.9857760667800904,
+                0.9977405667304992
+            ],
+            "min": [
+                0.02468693256378174,
+                -0.0006110669928602874
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__backLabelShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 300864,
+            "componentType": 5123,
+            "count": 360,
+            "max": [
+                77
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__backLabelShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 1157952,
+            "componentType": 5126,
+            "count": 78,
+            "max": [
+                0.362175852060318,
+                3.229999947507167e-7,
+                -0.48123687505722048
+            ],
+            "min": [
+                -0.8765906691551209,
+                -1.8999999440438845e-7,
+                -0.9990481734275818
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__backLabelShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 1158888,
+            "componentType": 5126,
+            "count": 78,
+            "max": [
+                -19.411518096923829,
+                16.885251998901368,
+                -0.5884876251220703
+            ],
+            "min": [
+                -25.97876739501953,
+                5.3523454666137699,
+                -3.4368863105773927
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__backLabelShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 771968,
+            "componentType": 5126,
+            "count": 78,
+            "max": [
+                -0.48123687505722048,
+                0.000004223999894747976,
+                0.8765906095504761,
+                1.0
+            ],
+            "min": [
+                -0.999048113822937,
+                -0.000004799000180355506,
+                -0.3621758222579956,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__backLabelShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 385984,
+            "componentType": 5126,
+            "count": 78,
+            "max": [
+                0.9920053482055664,
+                0.9996482133865356
+            ],
+            "min": [
+                0.005242913961410523,
+                0.0023535490036010744
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__V_GeoShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 301584,
+            "componentType": 5123,
+            "count": 1758,
+            "max": [
+                487
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__V_GeoShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 1159824,
+            "componentType": 5126,
+            "count": 488,
+            "max": [
+                0.9396954774856569,
+                1.0,
+                0.9396927356719972
+            ],
+            "min": [
+                -0.9396954774856569,
+                -1.0,
+                -0.9396918416023254
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__V_GeoShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 1165680,
+            "componentType": 5126,
+            "count": 488,
+            "max": [
+                -20.07408905029297,
+                36.357547760009769,
+                2.730790853500366
+            ],
+            "min": [
+                -22.87151908874512,
+                34.097286224365237,
+                0.286407083272934
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__V_GeoShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 773216,
+            "componentType": 5126,
+            "count": 488,
+            "max": [
+                0.939693808555603,
+                1.0,
+                0.2958644330501557,
+                1.0
+            ],
+            "min": [
+                -0.8128647804260254,
+                -1.0,
+                -0.3420250415802002,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__V_GeoShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 386608,
+            "componentType": 5126,
+            "count": 488,
+            "max": [
+                0.9682618975639344,
+                0.9980079531669616
+            ],
+            "min": [
+                0.0019326589535921813,
+                0.0019919280894100668
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__LiquidShapeShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 305100,
+            "componentType": 5123,
+            "count": 2148,
+            "max": [
+                493
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__LiquidShapeShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 1171536,
+            "componentType": 5126,
+            "count": 494,
+            "max": [
+                0.9961949586868286,
+                1.0,
+                0.9961950182914734
+            ],
+            "min": [
+                -0.9961950182914734,
+                -1.0,
+                -0.9961950182914734
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__LiquidShapeShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 1177464,
+            "componentType": 5126,
+            "count": 494,
+            "max": [
+                -16.832881927490236,
+                27.356510162353517,
+                6.167117595672607
+            ],
+            "min": [
+                -26.16711807250977,
+                0.2473001480102539,
+                -3.16711688041687
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__LiquidShapeShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 781024,
+            "componentType": 5126,
+            "count": 494,
+            "max": [
+                0.9961949586868286,
+                0.9085279107093812,
+                0.9961950182914734,
+                1.0
+            ],
+            "min": [
+                -0.9961950182914734,
+                -0.064864382147789,
+                -0.9961950778961182,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__LiquidShapeShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 390512,
+            "componentType": 5126,
+            "count": 494,
+            "max": [
+                0.65625,
+                0.9999998807907105
+            ],
+            "min": [
+                0.3437500596046448,
+                0.3125
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__CapShapeShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 309396,
+            "componentType": 5123,
+            "count": 5568,
+            "max": [
+                960
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__CapShapeShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 1183392,
+            "componentType": 5126,
+            "count": 961,
+            "max": [
+                0.9990398287773132,
+                1.0,
+                0.9990397095680236
+            ],
+            "min": [
+                -0.9990397691726684,
+                -0.997786819934845,
+                -0.9990397095680236
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 1194924,
+            "componentType": 5126,
+            "count": 961,
+            "max": [
+                -19.89048576354981,
+                34.37862396240235,
+                3.1095142364501959
+            ],
+            "min": [
+                -23.109514236450197,
+                33.83905029296875,
+                -0.10951364040374756
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 788928,
+            "componentType": 5126,
+            "count": 961,
+            "max": [
+                0.9993569254875184,
+                0.8124995827674866,
+                0.9993568062782288,
+                1.0
+            ],
+            "min": [
+                -0.9993571639060974,
+                -0.6907780766487122,
+                -0.9993574023246764,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__CapShapeShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 394464,
+            "componentType": 5126,
+            "count": 961,
+            "max": [
+                0.6554994583129883,
+                0.3117493391036988
+            ],
+            "min": [
+                0.34450066089630129,
+                0.0007506010006181896
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__CapShapeShape#1/indices",
+            "bufferView": 0,
+            "byteOffset": 320532,
+            "componentType": 5123,
+            "count": 2880,
+            "max": [
+                1091
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__CapShapeShape#1/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 1206456,
+            "componentType": 5126,
+            "count": 1092,
+            "max": [
+                0.9999845623970032,
+                0.0002776930050458759,
+                0.9999844431877136
+            ],
+            "min": [
+                -0.9999845027923584,
+                -0.7180711627006531,
+                -0.9999845623970032
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#1/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 1219560,
+            "componentType": 5126,
+            "count": 1092,
+            "max": [
+                -20.32907485961914,
+                33.83905029296875,
+                2.6709249019622804
+            ],
+            "min": [
+                -22.67092514038086,
+                31.578479766845704,
+                0.32907605171203616
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#1/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 804304,
+            "componentType": 5126,
+            "count": 1092,
+            "max": [
+                0.9990481734275818,
+                1.0,
+                0.9990484714508056,
+                1.0
+            ],
+            "min": [
+                -0.9990481734275818,
+                -0.994625210762024,
+                -0.9990482926368712,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__CapShapeShape#1/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 402152,
+            "componentType": 5126,
+            "count": 1092,
+            "max": [
+                0.7394034266471863,
+                0.5048446655273438
+            ],
+            "min": [
+                0.34375011920928957,
+                5.99999978589949e-8
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "pasted__CapShapeShape#2/indices",
+            "bufferView": 0,
+            "byteOffset": 326292,
+            "componentType": 5123,
+            "count": 384,
+            "max": [
+                128
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pasted__CapShapeShape#2/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 1232664,
+            "componentType": 5126,
+            "count": 129,
+            "max": [
+                0.0,
+                -1.0,
+                0.00002852500074368436
+            ],
+            "min": [
+                0.0,
+                -1.0,
+                -0.00005704800059902482
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#2/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 1234212,
+            "componentType": 5126,
+            "count": 129,
+            "max": [
+                -20.3330192565918,
+                31.578479766845704,
+                2.666980028152466
+            ],
+            "min": [
+                -22.66697883605957,
+                31.578479766845704,
+                0.33302104473114016
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pasted__CapShapeShape#2/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 821776,
+            "componentType": 5126,
+            "count": 129,
+            "max": [
+                0.99999737739563,
+                0.00005335300011211075,
+                0.9999845027923584,
+                -1.0
+            ],
+            "min": [
+                -0.9999845027923584,
+                -0.000056384000345133248,
+                -0.9999845027923584,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pasted__CapShapeShape#2/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 410888,
+            "componentType": 5126,
+            "count": 129,
+            "max": [
+                0.6215523481369019,
+                0.4929031729698181
+            ],
+            "min": [
+                0.3754585087299347,
+                0.4809621572494507
+            ],
+            "type": "VEC2"
+        }
+    ],
+    "bufferViews": [
+        {
+            "name": "Bottle_Shape_032_Full/data/indices-2",
+            "buffer": 0,
+            "byteOffset": 2471520,
+            "byteLength": 327060,
+            "target": 34963
+        },
+        {
+            "name": "Bottle_Shape_032_Full/data/vertices-12",
+            "buffer": 0,
+            "byteOffset": 823840,
+            "byteLength": 1235760,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "name": "Bottle_Shape_032_Full/data/vertices-16",
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 823840,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "name": "Bottle_Shape_032_Full/data/vertices-8",
+            "buffer": 0,
+            "byteOffset": 2059600,
+            "byteLength": 411920,
+            "byteStride": 8,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "name": "Bottle_Shape_032_Full/data",
+            "byteLength": 2798580,
+            "uri": "Bottle_Shape_032_Full0.bin"
+        }
+    ]
+}

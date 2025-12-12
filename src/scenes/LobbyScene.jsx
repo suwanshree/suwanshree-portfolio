@@ -1,3 +1,5 @@
+import SagaV from "../../public/models/SagaV";
+
 export default function LobbyScene() {
   return (
     <>
@@ -13,16 +15,18 @@ export default function LobbyScene() {
         <meshStandardMaterial color="#3a3a3a" />
       </mesh>
 
+      <SagaV position={[0, 0.9, -20]} scale={0.025} />
+
       {/* A couple of cubes as "exhibits" */}
-      <mesh position={[-3, 0.9, -4]} castShadow>
+      {/* <mesh position={[-3, 0.9, -4]} castShadow>
         <boxGeometry args={[2, 1.8, 0.5]} />
         <meshStandardMaterial color="#ff6b6b" />
       </mesh>
 
       <mesh position={[3, 0.9, -6]} castShadow>
         <boxGeometry args={[2, 1.8, 0.5]} />
-        <meshStandardMaterial color="#ffd166" />
-      </mesh>
+        <meshStandardMaterial color="#ffd166" /> */}
+      {/* </mesh> */}
     </>
   );
 }
