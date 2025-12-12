@@ -23,17 +23,6 @@ export default function LobbyScene() {
         <boxGeometry args={[2, 1.8, 0.5]} />
         <meshStandardMaterial color="#ffd166" />
       </mesh>
-
-      {/* Ambient decorative lights */}
-      <mesh position={[-8, 2.5, -2]}>
-        <sphereGeometry args={[0.1, 8, 8]} />
-        <meshStandardMaterial emissive="#7dd3fc" emissiveIntensity={0.6} />
-      </mesh>
-
-      <mesh position={[8, 2.5, -2]}>
-        <sphereGeometry args={[0.1, 8, 8]} />
-        <meshStandardMaterial emissive="#c084fc" emissiveIntensity={0.6} />
-      </mesh>
     </>
   );
 }

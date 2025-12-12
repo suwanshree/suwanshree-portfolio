@@ -3,6 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import Lights from "./components/Lights";
 import PlayerController from "./components/Player/PlayerController";
 import LobbyScene from "./scenes/LobbyScene";
+import { Environment } from "@react-three/drei";
 
 export default function App() {
   return (
@@ -13,6 +14,10 @@ export default function App() {
         style={{ background: "#111217" }}
       >
         <Suspense fallback={null}>
+          <Environment
+            files="/textures/hdr/citrus_orchard_road_puresky_4k.hdr"
+            background
+          />
           <Lights />
           <PlayerController />
           <LobbyScene />
