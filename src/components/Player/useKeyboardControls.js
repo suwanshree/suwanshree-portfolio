@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 export default function useKeyboardControls() {
-  const [keys, setKeys] = useState({
+  const [state, setState] = useState({
     forward: false,
     backward: false,
     left: false,
@@ -9,55 +9,33 @@ export default function useKeyboardControls() {
   });
 
   useEffect(() => {
-    const onKeyDown = (e) => {
-      switch (e.code) {
-        case "KeyW":
-        case "ArrowUp":
-          setKeys((k) => ({ ...k, forward: true }));
-          break;
-        case "KeyS":
-        case "ArrowDown":
-          setKeys((k) => ({ ...k, backward: true }));
-          break;
-        case "KeyA":
-        case "ArrowLeft":
-          setKeys((k) => ({ ...k, left: true }));
-          break;
-        case "KeyD":
-        case "ArrowRight":
-          setKeys((k) => ({ ...k, right: true }));
-          break;
-      }
+    const down = (e) => {
+      const code = e.code;
+      setState((s) => ({
+        ...s,
+        forward: s.forward || code === "KeyW" || code === "ArrowUp",
+        backward: s.backward || code === "KeyS" || code === "ArrowDown",
+        left: s.left || code === "KeyA" || code === "ArrowLeft",
+        right: s.right || code === "KeyD" || code === "ArrowRight",
+      }));
     };
-
-    const onKeyUp = (e) => {
-      switch (e.code) {
-        case "KeyW":
-        case "ArrowUp":
-          setKeys((k) => ({ ...k, forward: false }));
-          break;
-        case "KeyS":
-        case "ArrowDown":
-          setKeys((k) => ({ ...k, backward: false }));
-          break;
-        case "KeyA":
-        case "ArrowLeft":
-          setKeys((k) => ({ ...k, left: false }));
-          break;
-        case "KeyD":
-        case "ArrowRight":
-          setKeys((k) => ({ ...k, right: false }));
-          break;
-      }
+    const up = (e) => {
+      const code = e.code;
+      setState((s) => ({
+        ...s,
+        forward: code === "KeyW" || code === "ArrowUp" ? false : s.forward,
+        backward: code === "KeyS" || code === "ArrowDown" ? false : s.backward,
+        left: code === "KeyA" || code === "ArrowLeft" ? false : s.left,
+        right: code === "KeyD" || code === "ArrowRight" ? false : s.right,
+      }));
     };
-
-    window.addEventListener("keydown", onKeyDown);
-    window.addEventListener("keyup", onKeyUp);
+    window.addEventListener("keydown", down);
+    window.addEventListener("keyup", up);
     return () => {
-      window.removeEventListener("keydown", onKeyDown);
-      window.removeEventListener("keyup", onKeyUp);
+      window.removeEventListener("keydown", down);
+      window.removeEventListener("keyup", up);
     };
   }, []);
 
-  return keys;
+  return state;
 }

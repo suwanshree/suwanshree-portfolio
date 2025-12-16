@@ -1,17 +1,19 @@
 import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
+import { Environment, Loader } from "@react-three/drei";
 import Lights from "./components/Lights";
 import PlayerController from "./components/Player/PlayerController";
-import LobbyScene from "./scenes/LobbyScene";
-import { Environment } from "@react-three/drei";
+import ShowcaseScene from "./scenes/ShowcaseScene";
+import "./styles/globals.css";
 
 export default function App() {
   return (
-    <div style={{ width: "100vw", height: "100vh" }}>
+    <>
       <Canvas
         shadows
-        camera={{ fov: 75, near: 0.1, far: 1000, position: [0, 1.6, 6] }}
-        style={{ background: "#111217" }}
+        camera={{ fov: 70, position: [0, 1.6, 8] }}
+        gl={{ antialias: true, physicallyCorrectLights: true }}
+        style={{ height: "100vh", width: "100vw" }}
       >
         <Suspense fallback={null}>
           <Environment
@@ -20,9 +22,10 @@ export default function App() {
           />
           <Lights />
           <PlayerController />
-          <LobbyScene />
+          <ShowcaseScene />
         </Suspense>
       </Canvas>
-    </div>
+      <Loader />
+    </>
   );
 }
