@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import { useFrame, useThree } from "@react-three/fiber";
 import { PointerLockControls } from "@react-three/drei/core/PointerLockControls";
 import * as THREE from "three";
@@ -9,9 +9,17 @@ export default function PlayerController() {
   const { camera } = useThree();
   const keys = useKeyboardControls();
 
-  const velocity = useRef(new THREE.Vector3());
+  const speed = 10.0;
 
-  const speed = 4.0;
+  // 🎯 INITIAL PLAYER SPAWN
+  useEffect(() => {
+    const START_POS = new THREE.Vector3(0, 1.6, -50);
+    const LOOK_AT = new THREE.Vector3(0, 1.6, -1);
+
+    camera.position.copy(START_POS);
+    camera.lookAt(LOOK_AT);
+    camera.updateProjectionMatrix();
+  }, [camera]);
 
   useFrame((_, delta) => {
     // compute forward, right vectors from camera

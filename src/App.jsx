@@ -3,6 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { Environment, Loader } from "@react-three/drei";
 import Lights from "./components/Lights";
 import PlayerController from "./components/Player/PlayerController";
+import { Physics } from "@react-three/rapier";
 import ShowcaseScene from "./scenes/ShowcaseScene";
 import "./styles/globals.css";
 
@@ -21,8 +22,10 @@ export default function App() {
             background
           />
           <Lights />
-          <PlayerController />
-          <ShowcaseScene />
+          <Physics gravity={[0, -9.81, 0]}>
+            <PlayerController />
+            <ShowcaseScene />
+          </Physics>
         </Suspense>
       </Canvas>
       <Loader />
