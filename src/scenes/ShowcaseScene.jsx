@@ -5,6 +5,9 @@ import {
   CuboidCollider,
   CylinderCollider,
 } from "@react-three/rapier";
+import { useRef } from "react";
+import { useFrame } from "@react-three/fiber";
+import SpaceShip from "../../public/models/SpaceShip";
 
 // -------------------------
 // 🔧 GLOBAL SCENE CONTROLS
@@ -27,6 +30,13 @@ const DOOR_ANGLE = Math.PI;
 // -------------------------
 
 export default function ShowcaseScene() {
+  const shipRef = useRef();
+
+  useFrame((_, delta) => {
+    if (shipRef.current) {
+      shipRef.current.rotation.y += delta * 0.25;
+    }
+  });
   return (
     <>
       {/* 🌑 CIRCULAR PLAZA GROUND */}
@@ -295,6 +305,14 @@ export default function ShowcaseScene() {
         <cylinderGeometry args={[3.5, 3.5, 0.3, 64]} />
         <meshStandardMaterial color="#020617" metalness={0.6} roughness={0.2} />
       </mesh>
+
+      <group ref={shipRef} position={[0, 9.65, 0]}>
+        <axesHelper args={[2]} />
+
+        <group position={[3, 0, 1]}>
+          <SpaceShip scale={1} />
+        </group>
+      </group>
 
       {/* ----------------------------- */}
       {/* 🚧 FUTURE CONTENT */}
