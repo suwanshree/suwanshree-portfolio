@@ -43,6 +43,11 @@ const SUPPORT_START_RADIUS = PLAZA_RADIUS;
 const SUPPORT_END_RADIUS = 4;
 const SUPPORT_TWIST = Math.PI * 0.9;
 
+const STRUT_COUNT = 2;
+const STRUT_HEIGHT = 0.5;
+const STRUT_THICKNESS = 2;
+const STRUT_DROP = 10;
+
 // -------------------------
 
 export default function ShowcaseScene() {
@@ -107,6 +112,59 @@ export default function ShowcaseScene() {
           position={[0, GROUND_Y - 0.05, -PLAZA_RADIUS - PATH_LENGTH / 2 + 0.2]}
         />
       </RigidBody>
+
+      {/* 🏗️ PATH → MEGA PILLAR SUPPORT STRUTS with LEDs */}
+      <group>
+        {Array.from({ length: STRUT_COUNT }).map((_, i) => {
+          const t = i / (STRUT_COUNT - 1);
+
+          // Spread struts along the path length
+          const z = -PLAZA_RADIUS - PATH_LENGTH * (0.25 + t * 0.7) + 0.2;
+
+          // Start under path, aim toward pillar center
+          const start = new THREE.Vector3(0, GROUND_Y - 0.25, z);
+          const end = new THREE.Vector3(0, GROUND_Y - STRUT_DROP, 0);
+
+          const dir = new THREE.Vector3().subVectors(end, start);
+          const length = dir.length();
+
+          const mid = start.clone().add(dir.multiplyScalar(0.5));
+
+          // Rotation to aim the strut
+          const quat = new THREE.Quaternion().setFromUnitVectors(
+            new THREE.Vector3(0, 1, 0),
+            dir.clone().normalize()
+          );
+
+          return (
+            <group key={i} position={mid} quaternion={quat}>
+              {/* Main strut */}
+              <mesh receiveShadow castShadow>
+                <boxGeometry args={[STRUT_THICKNESS, length, STRUT_HEIGHT]} />
+                <meshStandardMaterial
+                  color="#020617"
+                  metalness={0.6}
+                  roughness={0.35}
+                />
+              </mesh>
+
+              {/* LED accent strip */}
+              <mesh position={[0, length / 2 + 0.01, 0]}>
+                <boxGeometry
+                  args={[STRUT_THICKNESS * 0.6, 0.05, STRUT_HEIGHT * 0.6]}
+                />
+                <meshStandardMaterial
+                  color="#4fd1ff"
+                  emissive="#4fd1ff"
+                  emissiveIntensity={1.5}
+                  metalness={0.5}
+                  roughness={0.1}
+                />
+              </mesh>
+            </group>
+          );
+        })}
+      </group>
 
       {/* 🛑 PATH GUARDRAILS */}
       {[-PATH_WIDTH / 2, PATH_WIDTH / 2].map((x, i) => (
