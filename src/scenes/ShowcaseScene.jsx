@@ -27,6 +27,22 @@ const RAIL_THICKNESS = 0.11;
 
 const DOOR_WIDTH = Math.PI / 6;
 const DOOR_ANGLE = Math.PI;
+
+const POLE_RADIUS = 0.1;
+const POLE_HEIGHT = 1.2;
+const POLE_OFFSET = 0.035;
+const PATH_CENTER_Z = -PLAZA_RADIUS - PATH_LENGTH / 2 + 0.2;
+
+const PATH_LED_WIDTH = 0.06;
+const PATH_LED_HEIGHT = 0.02;
+const PATH_LED_INSET = 0.25;
+
+const SUPPORT_SEGMENTS = 26;
+const SUPPORT_HEIGHT = 120;
+const SUPPORT_START_RADIUS = PLAZA_RADIUS;
+const SUPPORT_END_RADIUS = 4;
+const SUPPORT_TWIST = Math.PI * 0.9;
+
 // -------------------------
 
 export default function ShowcaseScene() {
@@ -43,7 +59,7 @@ export default function ShowcaseScene() {
       <RigidBody type="fixed" colliders={false}>
         <mesh
           rotation={[-Math.PI / 2, 0, 0]}
-          position={[0, GROUND_Y - 0.01, 0]}
+          position={[0, GROUND_Y + 0.02, 0]}
           receiveShadow
         >
           <circleGeometry args={[PLAZA_RADIUS, 128]} />
@@ -59,6 +75,12 @@ export default function ShowcaseScene() {
           />
         </mesh>
 
+        {/* Thin visual depth skirt */}
+        <mesh position={[0, GROUND_Y - 0.12, 0]} receiveShadow>
+          <cylinderGeometry args={[PLAZA_RADIUS, PLAZA_RADIUS, 0.25, 128]} />
+          <meshStandardMaterial color="#07070a" roughness={1} metalness={0} />
+        </mesh>
+
         <CylinderCollider
           args={[0.05, PLAZA_RADIUS]}
           position={[0, GROUND_Y - 0.05, 0]}
@@ -69,12 +91,12 @@ export default function ShowcaseScene() {
       <RigidBody type="fixed" colliders={false}>
         <mesh
           rotation={[-Math.PI / 2, 0, 0]}
-          position={[0, GROUND_Y, -PLAZA_RADIUS - PATH_LENGTH / 2 + 0.2]}
+          position={[0, GROUND_Y - 0.1, -PLAZA_RADIUS - PATH_LENGTH / 2 + 0.2]}
           receiveShadow
         >
-          <planeGeometry args={[PATH_WIDTH, PATH_LENGTH]} />
+          <boxGeometry args={[PATH_WIDTH, PATH_LENGTH, 0.2]} />
           <meshStandardMaterial
-            color="#020617"
+            color="#07070a"
             roughness={0.85}
             metalness={0.2}
           />
@@ -89,15 +111,38 @@ export default function ShowcaseScene() {
       {/* 🛑 PATH GUARDRAILS */}
       {[-PATH_WIDTH / 2, PATH_WIDTH / 2].map((x, i) => (
         <RigidBody key={i} type="fixed" colliders={false}>
+          {/* Top bar */}
           <mesh
             position={[
               x,
-              GROUND_Y + RAIL_HEIGHT / 2,
+              GROUND_Y + RAIL_HEIGHT - 0.08,
               -PLAZA_RADIUS - PATH_LENGTH / 2 + 0.2,
             ]}
           >
-            <boxGeometry args={[RAIL_THICKNESS, RAIL_HEIGHT, PATH_LENGTH]} />
-            <meshStandardMaterial color="#111827" />
+            <boxGeometry args={[RAIL_THICKNESS, 0.15, PATH_LENGTH]} />
+            <meshStandardMaterial
+              color="#111827"
+              metalness={0.6}
+              roughness={0.35}
+            />
+          </mesh>
+
+          {/* Glass panel */}
+          <mesh
+            position={[
+              x,
+              GROUND_Y + (RAIL_HEIGHT - 0.15) / 2,
+              -PLAZA_RADIUS - PATH_LENGTH / 2 + 0.15,
+            ]}
+          >
+            <boxGeometry args={[0.03, RAIL_HEIGHT - 0.2, PATH_LENGTH]} />
+            <meshPhysicalMaterial
+              transmission={1}
+              thickness={0.15}
+              roughness={0}
+              ior={1.45}
+              color="#dbeafe"
+            />
           </mesh>
 
           <CuboidCollider
@@ -113,16 +158,38 @@ export default function ShowcaseScene() {
 
       {/* 🛑 PATH END GUARDRAIL */}
       <RigidBody type="fixed" colliders={false}>
+        {/* Top bar */}
         <mesh
           position={[
             0,
-            GROUND_Y + RAIL_HEIGHT / 2,
+            GROUND_Y + RAIL_HEIGHT - 0.08,
             -PLAZA_RADIUS - PATH_LENGTH + RAIL_THICKNESS / 2 + 0.2,
           ]}
         >
-          {/* Width spans the path */}
-          <boxGeometry args={[PATH_WIDTH + 0.1, RAIL_HEIGHT, RAIL_THICKNESS]} />
-          <meshStandardMaterial color="#111827" />
+          <boxGeometry args={[PATH_WIDTH + 0.1, 0.15, RAIL_THICKNESS]} />
+          <meshStandardMaterial
+            color="#111827"
+            metalness={0.6}
+            roughness={0.35}
+          />
+        </mesh>
+
+        {/* Glass panel */}
+        <mesh
+          position={[
+            0,
+            GROUND_Y + (RAIL_HEIGHT - 0.15) / 2,
+            -PLAZA_RADIUS - PATH_LENGTH + 0.15,
+          ]}
+        >
+          <boxGeometry args={[PATH_WIDTH + 0.1, RAIL_HEIGHT - 0.1, 0.03]} />
+          <meshPhysicalMaterial
+            transmission={1}
+            thickness={0.15}
+            roughness={0}
+            ior={1.45}
+            color="#dbeafe"
+          />
         </mesh>
 
         <CuboidCollider
@@ -135,8 +202,61 @@ export default function ShowcaseScene() {
         />
       </RigidBody>
 
+      {/* 🪵 PATH CORNER POLES */}
+      {[
+        // Front-left
+        [
+          -PATH_WIDTH / 2 + POLE_OFFSET,
+          PATH_CENTER_Z + PATH_LENGTH / 2 - POLE_OFFSET,
+        ],
+        // Front-right
+        [
+          PATH_WIDTH / 2 - POLE_OFFSET,
+          PATH_CENTER_Z + PATH_LENGTH / 2 - POLE_OFFSET,
+        ],
+        // Back-left
+        [
+          -PATH_WIDTH / 2 + POLE_OFFSET,
+          PATH_CENTER_Z - PATH_LENGTH / 2 + POLE_OFFSET,
+        ],
+        // Back-right
+        [
+          PATH_WIDTH / 2 - POLE_OFFSET,
+          PATH_CENTER_Z - PATH_LENGTH / 2 + POLE_OFFSET,
+        ],
+      ].map(([x, z], i) => (
+        <RigidBody key={i} type="fixed" colliders={false}>
+          {/* Pole mesh */}
+          <mesh
+            position={[x, GROUND_Y + POLE_HEIGHT / 2, z]}
+            castShadow
+            receiveShadow
+          >
+            <cylinderGeometry
+              args={[POLE_RADIUS, POLE_RADIUS, POLE_HEIGHT, 24]}
+            />
+            <meshStandardMaterial
+              color="#111827"
+              metalness={0.7}
+              roughness={0.35}
+            />
+          </mesh>
+
+          <mesh position={[x, GROUND_Y + POLE_HEIGHT + 0.04, z]}>
+            <sphereGeometry args={[POLE_RADIUS * 1.1, 16, 16]} />
+          </mesh>
+
+          {/* Pole collider */}
+          <CylinderCollider
+            args={[POLE_HEIGHT / 2, POLE_RADIUS]}
+            position={[x, GROUND_Y + POLE_HEIGHT / 2, z]}
+          />
+        </RigidBody>
+      ))}
+
       {/* 🛑 PLAZA CIRCULAR GUARDRAIL */}
       <RigidBody type="fixed" colliders={false}>
+        {/* Top metal rail */}
         <mesh
           position={[0, GROUND_Y + RAIL_HEIGHT - 0.1, 0]}
           rotation={[Math.PI / 2, 0, 36.23]}
@@ -150,7 +270,36 @@ export default function ShowcaseScene() {
               Math.PI * 2 - DOOR_WIDTH + 0.32,
             ]}
           />
-          <meshStandardMaterial color="#111827" />
+          <meshStandardMaterial
+            color="#111827"
+            metalness={0.6}
+            roughness={0.35}
+          />
+        </mesh>
+
+        {/* Glass wall under rail */}
+        <mesh position={[0, GROUND_Y + (RAIL_HEIGHT - 0.15) / 2, 0]}>
+          <cylinderGeometry
+            args={[
+              PLAZA_RADIUS - 0.03,
+              PLAZA_RADIUS - 0.03,
+              RAIL_HEIGHT - 0.15,
+              128,
+              1,
+              true,
+              15.81,
+              Math.PI * 2 - DOOR_WIDTH + 0.32,
+            ]}
+          />
+          w
+          <meshPhysicalMaterial
+            transmission={1}
+            thickness={0.2}
+            roughness={0}
+            ior={1.45}
+            color="#dbeafe"
+            side={THREE.DoubleSide}
+          />
         </mesh>
 
         {Array.from({ length: 20 }).map((_, i) => {
@@ -361,6 +510,43 @@ export default function ShowcaseScene() {
         />
       </mesh>
 
+      {/* LED Light Strip 5 */}
+      <mesh position={[0, GROUND_Y - 0.02, 0]} rotation={[Math.PI / 2, 0, 0]}>
+        <torusGeometry args={[PLAZA_RADIUS - 0.18, 0.05, 8, 128]} />
+        <meshStandardMaterial
+          color="#4fd1ff"
+          emissive="#4fd1ff"
+          emissiveIntensity={1.2}
+          metalness={0.5}
+          roughness={0.1}
+        />
+      </mesh>
+
+      {/* 🔵 PATH GROUND LED STRIPS */}
+      {[-1, 1].map((side, i) => (
+        <mesh
+          key={i}
+          position={[
+            side * (PATH_WIDTH / 2 - PATH_LED_INSET),
+            GROUND_Y + PATH_LED_HEIGHT / 2 + 0.005,
+            -PLAZA_RADIUS - PATH_LENGTH / 2 + 0.23,
+          ]}
+          receiveShadow={false}
+          castShadow={false}
+        >
+          <boxGeometry
+            args={[PATH_LED_WIDTH, PATH_LED_HEIGHT, PATH_LENGTH + 0.07]}
+          />
+          <meshStandardMaterial
+            color="#4fd1ff"
+            emissive="#4fd1ff"
+            emissiveIntensity={1.1}
+            metalness={0.4}
+            roughness={0.15}
+          />
+        </mesh>
+      ))}
+
       {/* Ceiling fill */}
       <mesh
         rotation={[Math.PI / 2, 0, 0]}
@@ -415,6 +601,40 @@ export default function ShowcaseScene() {
         <group position={[3, 0, 1]}>
           <SpaceShip scale={1} />
         </group>
+      </group>
+
+      {/* 🏗️ MEGA SUPPORT PILLAR */}
+      <group position={[0, GROUND_Y, 0]}>
+        {Array.from({ length: SUPPORT_SEGMENTS }).map((_, i) => {
+          const t = i / (SUPPORT_SEGMENTS - 1);
+
+          const radius =
+            SUPPORT_START_RADIUS * (1 - t) + SUPPORT_END_RADIUS * t;
+
+          const height = SUPPORT_HEIGHT / SUPPORT_SEGMENTS;
+          const y = -t * SUPPORT_HEIGHT - height / 2;
+
+          const twist = t * SUPPORT_TWIST;
+
+          return (
+            <mesh
+              key={i}
+              position={[0, y, 0]}
+              rotation={[0, twist, 0]}
+              receiveShadow
+              castShadow
+            >
+              <cylinderGeometry
+                args={[radius, radius * 0.92, height, 64, 1, true]}
+              />
+              <meshStandardMaterial
+                color="#020617"
+                metalness={0.55}
+                roughness={0.35}
+              />
+            </mesh>
+          );
+        })}
       </group>
     </>
   );
