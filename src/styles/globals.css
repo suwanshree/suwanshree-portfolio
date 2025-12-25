@@ -78,3 +78,32 @@ body,
 .intro-panel button:hover {
   background: #ffffff;
 }
+
+.movement-hint {
+  position: fixed;
+  left: 50%;
+  bottom: -250px;
+  transform: translateX(-50%);
+  color: #e5f0ff;
+  font-size: 30px;
+  letter-spacing: 0.12em;
+  opacity: 0.85;
+  pointer-events: none;
+  animation: fadeIn 1.2s ease;
+}
+
+.movement-hint span {
+  color: #4fd1ff;
+  font-weight: 600;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 10px);
+  }
+  to {
+    opacity: 0.85;
+    transform: translate(-50%, 0);
+  }
+}

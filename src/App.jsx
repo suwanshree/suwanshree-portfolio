@@ -9,6 +9,8 @@ import ShowcaseScene from "./scenes/ShowcaseScene";
 import IntroOverlay from "./components/IntroOverlay";
 
 import "./styles/globals.css";
+import DirectionArrow from "./components/DirectionArrow";
+import MovementHint from "./components/MovementHint";
 
 export default function App() {
   const [started, setStarted] = useState(
@@ -30,6 +32,7 @@ export default function App() {
         gl={{ antialias: true, physicallyCorrectLights: true }}
         style={{ height: "100vh", width: "100vw" }}
       >
+        {started && <MovementHint />}
         <Suspense fallback={null}>
           <Environment
             files="/textures/hdr/citrus_orchard_road_puresky_4k.hdr"
@@ -42,6 +45,7 @@ export default function App() {
               onReady={() => setPlayerReady(true)}
             />
             {playerReady && <ShowcaseScene />}
+            {playerReady && started && <DirectionArrow />}
           </Physics>
         </Suspense>
       </Canvas>

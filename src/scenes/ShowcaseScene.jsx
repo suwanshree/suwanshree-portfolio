@@ -575,6 +575,18 @@ export default function ShowcaseScene() {
         />
       </mesh>
 
+      {/* LED Light Strip 5 */}
+      <mesh position={[0, GROUND_Y - 0.02, 0]} rotation={[Math.PI / 2, 0, 0]}>
+        <torusGeometry args={[BUILDING_RADIUS - 0.32, 0.05, 8, 128]} />
+        <meshStandardMaterial
+          color="#4fd1ff"
+          emissive="#4fd1ff"
+          emissiveIntensity={1.2}
+          metalness={0.5}
+          roughness={0.1}
+        />
+      </mesh>
+
       {/* 🔵 PATH GROUND LED STRIPS */}
       {[-1, 1].map((side, i) => (
         <mesh
