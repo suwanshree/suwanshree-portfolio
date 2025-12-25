@@ -43,10 +43,10 @@ const SUPPORT_START_RADIUS = PLAZA_RADIUS;
 const SUPPORT_END_RADIUS = 4;
 const SUPPORT_TWIST = Math.PI * 0.9;
 
-const STRUT_COUNT = 2;
+const STRUT_COUNT = 25;
 const STRUT_HEIGHT = 0.5;
 const STRUT_THICKNESS = 2;
-const STRUT_DROP = 10;
+const STRUT_DROP = 15;
 
 // -------------------------
 
@@ -363,7 +363,7 @@ export default function ShowcaseScene() {
         {Array.from({ length: 20 }).map((_, i) => {
           const arc = Math.PI * 2 - DOOR_WIDTH + 0.32;
 
-          const angle = 36.23 + (i / 20) * arc + arc / 40; // center each segment
+          const angle = 36.23 + (i / 20) * arc + arc / 40;
 
           const x = Math.cos(angle) * PLAZA_RADIUS;
           const z = Math.sin(angle) * PLAZA_RADIUS;
@@ -372,9 +372,9 @@ export default function ShowcaseScene() {
             <RigidBody key={i} type="fixed">
               <CuboidCollider
                 args={[
-                  RAIL_THICKNESS / 2, // thickness
-                  RAIL_HEIGHT / 2, // height
-                  (PLAZA_RADIUS * arc) / 20 / 2, // segment length
+                  RAIL_THICKNESS / 2,
+                  RAIL_HEIGHT / 2,
+                  (PLAZA_RADIUS * arc) / 20 / 2,
                 ]}
                 position={[x, GROUND_Y + RAIL_HEIGHT - 0.1, z]}
                 rotation={[0, -angle, 0]}
@@ -411,35 +411,30 @@ export default function ShowcaseScene() {
             />
           </mesh>
 
-          {/* 🧱 BUILDING WALL COLLIDERS WITH DOOR GAP */}
-          {Array.from({ length: 28 }).map((_, i) => {
-            const totalArc = Math.PI * 2 - DOOR_WIDTH;
-            const anglePerSegment = totalArc / 28;
+          {/* 🧱 GLASS SHOWROOM COLLIDERS */}
+          {Array.from({ length: 32 }).map((_, i) => {
+            const arc = Math.PI * 2 - DOOR_WIDTH;
+            const segmentCount = 32;
+            const segmentArc = arc / segmentCount;
 
-            // Segment angle = start + i * segment width
-            const segmentStart =
-              DOOR_ANGLE + DOOR_WIDTH / 2 + i * anglePerSegment;
+            // center each segment
+            const angle =
+              DOOR_ANGLE +
+              DOOR_WIDTH / 2 +
+              i * segmentArc +
+              segmentArc / 2 +
+              Math.PI / 2;
 
-            // Skip segments that would cover the door
-            if (
-              segmentStart + anglePerSegment / 2 >
-                DOOR_ANGLE - DOOR_WIDTH / 2 &&
-              segmentStart - anglePerSegment / 2 < DOOR_ANGLE + DOOR_WIDTH / 2
-            ) {
-              return null;
-            }
-
-            const angle = segmentStart + anglePerSegment / 2;
-            const x = Math.sin(angle) * BUILDING_RADIUS;
-            const z = Math.cos(angle) * BUILDING_RADIUS;
+            const x = Math.cos(angle) * BUILDING_RADIUS;
+            const z = Math.sin(angle) * BUILDING_RADIUS;
 
             return (
               <RigidBody key={i} type="fixed">
                 <CuboidCollider
                   args={[
-                    0.15,
+                    0.18,
                     BUILDING_HEIGHT / 2,
-                    (BUILDING_RADIUS * anglePerSegment) / 2,
+                    (BUILDING_RADIUS * segmentArc) / 2 + 0.05,
                   ]}
                   position={[x, GROUND_Y + BUILDING_HEIGHT / 2, z]}
                   rotation={[0, -angle, 0]}
