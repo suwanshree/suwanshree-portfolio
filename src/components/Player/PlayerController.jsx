@@ -5,7 +5,7 @@ import { RigidBody, CapsuleCollider } from "@react-three/rapier";
 import * as THREE from "three";
 import useKeyboardControls from "./useKeyboardControls";
 
-export default function PlayerController() {
+export default function PlayerController({ enabled, onReady }) {
   const bodyRef = useRef();
   const controlsRef = useRef();
   const { camera } = useThree();
@@ -14,27 +14,30 @@ export default function PlayerController() {
   const SPEED = 10;
   const PLAYER_HEIGHT = 1.6;
 
-  // 🎯 INITIAL PLAYER SPAWN
+  /* 🎯 CLEAN INITIAL SPAWN */
   useEffect(() => {
+    if (!bodyRef.current || !controlsRef.current) return;
     const START_POS = { x: 0, y: 1.6, z: -50 };
-    bodyRef.current.setTranslation(START_POS, true);
+    bodyRef.current.setTranslation(START_POS, false);
+    bodyRef.current.setLinvel({ x: 0, y: 0, z: 0 }, false);
+    bodyRef.current.setAngvel({ x: 0, y: 0, z: 0 }, false);
+    bodyRef.current.setEnabledTranslations(true, false, true);
+    const obj = controlsRef.current.getObject();
+    obj.rotation.set(0, Math.PI, 0);
+    requestAnimationFrame(() => {
+      bodyRef.current.setEnabledTranslations(true, true, true);
+      onReady?.();
+    });
+  }, [onReady]);
 
-    if (controlsRef.current) {
-      const object = controlsRef.current.getObject();
-
-      // Look toward +Z (plaza)
-      object.rotation.set(0, Math.PI, 0);
-    }
-  }, []);
-
-  useFrame((_, delta) => {
+  useFrame(() => {
     if (!bodyRef.current) return;
 
     /* Camera follows rigid body */
     const pos = bodyRef.current.translation();
     camera.position.set(pos.x, pos.y + 1.5, pos.z);
 
-    /* Movement direction */
+    /* Movement vectors */
     const forward = new THREE.Vector3();
     camera.getWorldDirection(forward);
     forward.y = 0;
@@ -69,7 +72,7 @@ export default function PlayerController() {
 
   return (
     <>
-      <PointerLockControls ref={controlsRef} />
+      <PointerLockControls ref={controlsRef} enabled={enabled} />
 
       <RigidBody
         ref={bodyRef}
@@ -80,7 +83,6 @@ export default function PlayerController() {
         linearDamping={6}
         friction={1}
       >
-        {/* Capsule collider = perfect FPS body */}
         <CapsuleCollider
           args={[PLAYER_HEIGHT / 2, 0.35]}
           position={[0, PLAYER_HEIGHT / 2, 0]}

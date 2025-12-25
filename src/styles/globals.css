@@ -47,3 +47,34 @@ body,
   margin-top: 6px;
   font-size: 12px;
 }
+.intro-overlay {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(#020617, #000);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.intro-panel {
+  color: white;
+  font-family: system-ui;
+  text-align: center;
+}
+
+.intro-panel button {
+  margin-top: 16px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background: #4fd1ff;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in;
+}
+
+.intro-panel button:hover {
+  background: #ffffff;
+}
