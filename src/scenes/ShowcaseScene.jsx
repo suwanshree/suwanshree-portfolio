@@ -8,6 +8,9 @@ import {
 import { useRef } from "react";
 import { useFrame } from "@react-three/fiber";
 import SpaceShip from "/public/models/SpaceShip";
+import Showcase from "../components/Showcase";
+import AnimatedSpaceship from "../../public/models/AnimatedSpaceship";
+import SagaV from "../../public/models/SagaV";
 
 // -------------------------
 // 🔧 GLOBAL SCENE CONTROLS
@@ -701,6 +704,41 @@ export default function ShowcaseScene() {
           );
         })}
       </group>
+
+      {/* SHOWCASE */}
+      <Showcase
+        position={[-6.8, 0, -9.8]}
+        rotation={[0, 44.7, 0]}
+        title="Flux Afterburn: 3D Animation Sequence"
+        description="On Flux Afterburn, I shaped a concise narrative through concept sketches and storyboards, grounding tone and pacing with targeted visual references. I then built the starship asset from top- and side-view drawings to ensure scene-to-scene continuity. Animation and effects were executed, followed by rendering, compositing, and audio mixing to deliver the finished film."
+        centerStand={true}
+        modelScale={0.12}
+        modelRotation={[0, Math.PI / 2, 0]}
+        modelPosition={[-3, 1.6, -0.7]}
+        media={{
+          type: "youtube",
+          src: "https://youtu.be/yynJ9WZEkGM",
+        }}
+      >
+        <AnimatedSpaceship />
+      </Showcase>
+
+      <Showcase
+        position={[0, 0, -3.1]}
+        rotation={[0, Math.PI, 0]}
+        title="SagaV: Designing the Pour"
+        description="Saga V is a premium mocktail brand designed to deliver a high-end experience through cohesive brand identity, packaging, and storytelling. As lead for 3D mockups, I used Autodesk Maya to design and render bottle prototypes, and finalized on tarot-inspired round bottle featuring textured glass for grip and elegance, aligning with the brand’s premium vision while ensuring functionality."
+        centerStand={false}
+        modelScale={0.018}
+        modelRotation={[0, Math.PI / 6, 0]}
+        modelPosition={[-3.1, 1.4, -0.5]}
+        media={{
+          type: "image",
+          src: "/public/images/sagaV-reveal.jpg",
+        }}
+      >
+        <SagaV />
+      </Showcase>
     </>
   );
 }

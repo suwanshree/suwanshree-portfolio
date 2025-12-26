@@ -1,0 +1,1105 @@
+{
+    "asset": {
+        "copyright": "(C)2025 suwan",
+        "generator": "maya2glTF v1.5.2 fc60fee",
+        "version": "2.0"
+    },
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "nodes": [
+        {
+            "name": "ship_CTRL",
+            "children": [
+                1
+            ],
+            "translation": [
+                -2.750946521759033,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.7071067690849304,
+                0.0,
+                0.7071067690849304
+            ]
+        },
+        {
+            "name": "ship_MASTER",
+            "children": [
+                11,
+                7,
+                2
+            ]
+        },
+        {
+            "name": "shipBody_GRP",
+            "children": [
+                3
+            ],
+            "translation": [
+                0.0,
+                1.2488707304000857,
+                0.0
+            ],
+            "scale": [
+                12.35598087310791,
+                3.572879552841187,
+                3.577777862548828
+            ]
+        },
+        {
+            "name": "shipBody_GRP:PIV",
+            "children": [
+                6,
+                4
+            ],
+            "translation": [
+                0.0,
+                0.0003160540072713047,
+                0.0
+            ]
+        },
+        {
+            "name": "windscreenGlass_GEO",
+            "children": [
+                5
+            ],
+            "translation": [
+                -0.2991294264793396,
+                -0.04086329787969589,
+                0.0
+            ]
+        },
+        {
+            "name": "windscreenGlass_GEO:PIV",
+            "mesh": 0,
+            "translation": [
+                0.2991294264793396,
+                0.04086329787969589,
+                0.0
+            ]
+        },
+        {
+            "name": "mainBody_GEO",
+            "mesh": 1
+        },
+        {
+            "name": "nozzle_GRP",
+            "children": [
+                10,
+                9,
+                8
+            ]
+        },
+        {
+            "name": "flame_GEO",
+            "mesh": 2,
+            "translation": [
+                6.169826507568359,
+                1.202475905418396,
+                0.019135942682623864
+            ],
+            "rotation": [
+                -0.3067581057548523,
+                0.336153656244278,
+                0.6371024250984192,
+                0.6220937967300415
+            ],
+            "scale": [
+                0.7831582427024841,
+                0.7831582427024841,
+                0.7831582427024841
+            ]
+        },
+        {
+            "name": "exhaustNozzle_GEO",
+            "mesh": 3,
+            "translation": [
+                6.044652938842773,
+                1.221969723701477,
+                0.0
+            ]
+        },
+        {
+            "name": "exhaustNozzleInner_GEO",
+            "mesh": 4,
+            "translation": [
+                6.042622089385986,
+                1.221969723701477,
+                0.0
+            ]
+        },
+        {
+            "name": "finsWings_GRP",
+            "children": [
+                14,
+                12
+            ]
+        },
+        {
+            "name": "wings_GEO",
+            "children": [
+                13
+            ],
+            "translation": [
+                3.548546552658081,
+                0.0,
+                1.92276930809021
+            ]
+        },
+        {
+            "name": "wings_GEO:PIV",
+            "mesh": 5,
+            "translation": [
+                0.0,
+                0.0,
+                1.1243159770965577
+            ]
+        },
+        {
+            "name": "fins_GEO",
+            "mesh": 6,
+            "translation": [
+                4.677110195159912,
+                3.4996488094329836,
+                1.1600086688995362
+            ]
+        }
+    ],
+    "meshes": [
+        {
+            "name": "windscreenGlass_GEOShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "mainBody_GEOShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 6,
+                        "POSITION": 7,
+                        "TANGENT": 8,
+                        "TEXCOORD_0": 9
+                    },
+                    "indices": 5,
+                    "mode": 4,
+                    "material": 1
+                }
+            ]
+        },
+        {
+            "name": "flame_GEOShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 11,
+                        "POSITION": 12,
+                        "TANGENT": 13,
+                        "TEXCOORD_0": 14
+                    },
+                    "indices": 10,
+                    "mode": 4,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "exhaustNozzle_GEOShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 16,
+                        "POSITION": 17,
+                        "TANGENT": 18,
+                        "TEXCOORD_0": 19
+                    },
+                    "indices": 15,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "exhaustNozzleInner_GEOShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 21,
+                        "POSITION": 22,
+                        "TANGENT": 23,
+                        "TEXCOORD_0": 24
+                    },
+                    "indices": 20,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "wings_GEOShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 26,
+                        "POSITION": 27,
+                        "TANGENT": 28,
+                        "TEXCOORD_0": 29
+                    },
+                    "indices": 25,
+                    "mode": 4,
+                    "material": 3
+                }
+            ]
+        },
+        {
+            "name": "fins_GEOShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 31,
+                        "POSITION": 32,
+                        "TANGENT": 33,
+                        "TEXCOORD_0": 34
+                    },
+                    "indices": 30,
+                    "mode": 4,
+                    "material": 4
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "GLSLShader1",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "metallicFactor": 0.5,
+                "roughnessFactor": 0.5
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "pbrMetallicRoughness": {}
+        },
+        {
+            "name": "GLSLShader2",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0,
+                    1.0,
+                    0.9688000082969666,
+                    1.0
+                ],
+                "metallicFactor": 0.5,
+                "roughnessFactor": 0.5
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "pbrMetallicRoughness": {}
+        },
+        {
+            "pbrMetallicRoughness": {}
+        }
+    ],
+    "animations": [
+        {
+            "name": "clip",
+            "channels": [
+                {
+                    "sampler": 0,
+                    "target": {
+                        "node": 8,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 1,
+                    "target": {
+                        "node": 8,
+                        "path": "scale"
+                    }
+                }
+            ],
+            "samplers": [
+                {
+                    "input": 35,
+                    "interpolation": "LINEAR",
+                    "output": 36
+                },
+                {
+                    "input": 35,
+                    "interpolation": "LINEAR",
+                    "output": 37
+                }
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "name": "windscreenGlass_GEOShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 624,
+            "max": [
+                133
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "windscreenGlass_GEOShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 134,
+            "max": [
+                0.9944076538085938,
+                0.9062895774841308,
+                0.9947991967201232
+            ],
+            "min": [
+                -0.9943755269050598,
+                -0.9069870114326476,
+                -0.5597074627876282
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "windscreenGlass_GEOShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 1608,
+            "componentType": 5126,
+            "count": 134,
+            "max": [
+                -0.2487536072731018,
+                0.05504576116800308,
+                0.2895084023475647
+            ],
+            "min": [
+                -0.3495331406593323,
+                -0.11752492189407349,
+                -0.2895084023475647
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "windscreenGlass_GEOShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 134,
+            "max": [
+                0.9864654541015624,
+                0.9973262548446656,
+                0.1809722185134888,
+                1.0
+            ],
+            "min": [
+                -0.9838284254074096,
+                -0.9930421710014344,
+                -0.19111111760139466,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "windscreenGlass_GEOShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 134,
+            "max": [
+                0.4375,
+                0.8125
+            ],
+            "min": [
+                0.41225194931030276,
+                0.4375
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "mainBody_GEOShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 1248,
+            "componentType": 5123,
+            "count": 7200,
+            "max": [
+                1301
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "mainBody_GEOShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 3216,
+            "componentType": 5126,
+            "count": 1302,
+            "max": [
+                0.9996510744094848,
+                0.999679684638977,
+                1.0
+            ],
+            "min": [
+                -0.9996510744094848,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "mainBody_GEOShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 18840,
+            "componentType": 5126,
+            "count": 1302,
+            "max": [
+                0.510780930519104,
+                0.48912203311920168,
+                0.5550747513771057
+            ],
+            "min": [
+                -0.5,
+                -0.5003401041030884,
+                -0.5550747513771057
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "mainBody_GEOShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 2144,
+            "componentType": 5126,
+            "count": 1302,
+            "max": [
+                1.0,
+                0.9982813596725464,
+                0.44389453530311587,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -0.9997355937957764,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "mainBody_GEOShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 1072,
+            "componentType": 5126,
+            "count": 1302,
+            "max": [
+                0.875,
+                1.0
+            ],
+            "min": [
+                0.125,
+                0.0
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "flame_GEOShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 15648,
+            "componentType": 5123,
+            "count": 29952,
+            "max": [
+                5297
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "flame_GEOShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 34464,
+            "componentType": 5126,
+            "count": 5298,
+            "max": [
+                0.999987781047821,
+                0.9995718002319336,
+                0.999986469745636
+            ],
+            "min": [
+                -0.9968098402023317,
+                -0.99958473443985,
+                -0.031168853864073758
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "flame_GEOShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 98040,
+            "componentType": 5126,
+            "count": 5298,
+            "max": [
+                1.1420520544052125,
+                0.9990053772926332,
+                1.0050734281539918
+            ],
+            "min": [
+                -1.1891214847564698,
+                -4.049084186553955,
+                -1.0687309503555298
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "flame_GEOShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 22976,
+            "componentType": 5126,
+            "count": 5298,
+            "max": [
+                0.9999819397926332,
+                0.9999595880508424,
+                0.9954944849014282,
+                1.0
+            ],
+            "min": [
+                -0.9997409582138062,
+                -0.9999939799308776,
+                -0.995512068271637,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "flame_GEOShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 11488,
+            "componentType": 5126,
+            "count": 5298,
+            "max": [
+                0.65625,
+                0.6875
+            ],
+            "min": [
+                0.3437500596046448,
+                0.0
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "exhaustNozzle_GEOShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 75552,
+            "componentType": 5123,
+            "count": 3522,
+            "max": [
+                748
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "exhaustNozzle_GEOShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 161616,
+            "componentType": 5126,
+            "count": 749,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -0.8273928761482239
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "exhaustNozzle_GEOShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 170604,
+            "componentType": 5126,
+            "count": 749,
+            "max": [
+                0.5466499328613281,
+                1.422945499420166,
+                1.4229451417922974
+            ],
+            "min": [
+                -0.3114715814590454,
+                -1.422945022583008,
+                -1.4229447841644288
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "exhaustNozzle_GEOShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 107744,
+            "componentType": 5126,
+            "count": 749,
+            "max": [
+                1.0,
+                1.0,
+                0.060816533863544467,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -0.06081657484173775,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "exhaustNozzle_GEOShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 53872,
+            "componentType": 5126,
+            "count": 749,
+            "max": [
+                1.0018796920776368,
+                0.75
+            ],
+            "min": [
+                0.0,
+                0.0
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "exhaustNozzleInner_GEOShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 82596,
+            "componentType": 5123,
+            "count": 3522,
+            "max": [
+                748
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "exhaustNozzleInner_GEOShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 179592,
+            "componentType": 5126,
+            "count": 749,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -0.7191389799118042
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "exhaustNozzleInner_GEOShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 188580,
+            "componentType": 5126,
+            "count": 749,
+            "max": [
+                0.5466500520706177,
+                0.9996161460876464,
+                0.9996159672737122
+            ],
+            "min": [
+                -0.3114716410636902,
+                -0.9996159076690674,
+                -0.9996158480644226
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "exhaustNozzleInner_GEOShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 119728,
+            "componentType": 5126,
+            "count": 749,
+            "max": [
+                1.0,
+                1.0,
+                0.06549388915300369,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -0.06549433618783951,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "exhaustNozzleInner_GEOShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 59864,
+            "componentType": 5126,
+            "count": 749,
+            "max": [
+                1.0018796920776368,
+                0.75
+            ],
+            "min": [
+                0.0,
+                0.0
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "wings_GEOShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 89640,
+            "componentType": 5123,
+            "count": 1248,
+            "max": [
+                257
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "wings_GEOShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 197568,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                0.9993511438369752,
+                0.9999383687973024,
+                0.7393507361412048
+            ],
+            "min": [
+                -0.9993511438369752,
+                -0.999909520149231,
+                -0.999570369720459
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "wings_GEOShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 200664,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                2.296358585357666,
+                0.15553949773311616,
+                1.701164722442627
+            ],
+            "min": [
+                -2.6450090408325197,
+                -0.12564949691295625,
+                -7.795334815979004
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "wings_GEOShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 131712,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                0.999206006526947,
+                0.4890177249908447,
+                0.6760814785957336,
+                1.0
+            ],
+            "min": [
+                -0.9992060661315918,
+                -0.33450889587402346,
+                -0.999340832233429,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "wings_GEOShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 65856,
+            "componentType": 5126,
+            "count": 258,
+            "max": [
+                0.875,
+                1.0
+            ],
+            "min": [
+                0.125,
+                0.0
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "fins_GEOShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 92136,
+            "componentType": 5123,
+            "count": 1056,
+            "max": [
+                237
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "fins_GEOShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 203760,
+            "componentType": 5126,
+            "count": 238,
+            "max": [
+                0.9996069669723512,
+                0.9295730590820313,
+                0.9786273241043092
+            ],
+            "min": [
+                -0.9996069669723512,
+                -0.9631547927856444,
+                -0.9999985694885254
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "fins_GEOShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 206616,
+            "componentType": 5126,
+            "count": 238,
+            "max": [
+                1.4905378818511963,
+                0.8179514408111572,
+                0.23040886223316194
+            ],
+            "min": [
+                -1.0325236320495606,
+                -0.8766070008277893,
+                -2.550426483154297
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "fins_GEOShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 135840,
+            "componentType": 5126,
+            "count": 238,
+            "max": [
+                0.9723801612854004,
+                0.4749555885791779,
+                0.9963039755821228,
+                1.0
+            ],
+            "min": [
+                -0.9723782539367676,
+                -0.4684981107711792,
+                -0.9999963641166688,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "fins_GEOShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 67920,
+            "componentType": 5126,
+            "count": 238,
+            "max": [
+                0.875,
+                1.0
+            ],
+            "min": [
+                0.125,
+                0.0
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "clip/anim/frames",
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 360,
+            "max": [
+                14.958333015441897
+            ],
+            "min": [
+                0.0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "flame_GEO/anim/clip/R",
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 360,
+            "max": [
+                0.7071061134338379,
+                0.7071037292480469,
+                0.7070966958999634,
+                0.7070261836051941
+            ],
+            "min": [
+                -0.7071059942245483,
+                -0.7071006298065186,
+                -0.7071067094802856,
+                -0.7070302367210388
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "flame_GEO/anim/clip/S",
+            "bufferView": 6,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 360,
+            "max": [
+                0.7831582427024841,
+                3.4723732471466066,
+                0.7831582427024841
+            ],
+            "min": [
+                0.7831582427024841,
+                0.7831582427024841,
+                0.7831582427024841
+            ],
+            "type": "VEC3"
+        }
+    ],
+    "bufferViews": [
+        {
+            "name": "FluxAfterburn_animationFinal2/data/indices-2",
+            "buffer": 0,
+            "byteOffset": 430464,
+            "byteLength": 94248,
+            "target": 34963
+        },
+        {
+            "name": "FluxAfterburn_animationFinal2/data/vertices-12",
+            "buffer": 0,
+            "byteOffset": 149728,
+            "byteLength": 209472,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "name": "FluxAfterburn_animationFinal2/data/vertices-16",
+            "buffer": 0,
+            "byteOffset": 5760,
+            "byteLength": 139648,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "name": "FluxAfterburn_animationFinal2/data/vertices-8",
+            "buffer": 0,
+            "byteOffset": 359200,
+            "byteLength": 69824,
+            "byteStride": 8,
+            "target": 34962
+        },
+        {
+            "name": "FluxAfterburn_animationFinal2/data/generic-4",
+            "buffer": 0,
+            "byteOffset": 429024,
+            "byteLength": 1440
+        },
+        {
+            "name": "FluxAfterburn_animationFinal2/data/generic-16",
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 5760
+        },
+        {
+            "name": "FluxAfterburn_animationFinal2/data/generic-12",
+            "buffer": 0,
+            "byteOffset": 145408,
+            "byteLength": 4320
+        }
+    ],
+    "buffers": [
+        {
+            "name": "FluxAfterburn_animationFinal2/data",
+            "byteLength": 524712,
+            "uri": "FluxAfterburn_animationFinal20.bin"
+        }
+    ]
+}
