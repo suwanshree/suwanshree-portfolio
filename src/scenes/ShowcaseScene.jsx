@@ -734,7 +734,7 @@ export default function ShowcaseScene() {
         modelPosition={[-3.1, 1.4, -0.5]}
         media={{
           type: "image",
-          src: "/public/images/sagaV-reveal.jpg",
+          src: "../../public/images/sagaV-reveal.jpg",
         }}
       >
         <SagaV />
