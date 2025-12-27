@@ -1,0 +1,593 @@
+{
+    "asset": {
+        "copyright": "(C)2025 suwan",
+        "generator": "maya2glTF v1.5.2 fc60fee",
+        "version": "2.0"
+    },
+    "scenes": [
+        {
+            "nodes": [
+                4,
+                2,
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "nodes": [
+        {
+            "name": "ShadowTop1",
+            "children": [
+                1
+            ],
+            "translation": [
+                0.0,
+                0.12652164697647096,
+                0.0
+            ]
+        },
+        {
+            "name": "ShadowTop1:PIV",
+            "mesh": 0,
+            "translation": [
+                0.0,
+                -0.12652164697647096,
+                0.0
+            ]
+        },
+        {
+            "name": "ShadowBottom1",
+            "children": [
+                3
+            ],
+            "translation": [
+                0.0,
+                -0.10666000097990036,
+                0.0
+            ]
+        },
+        {
+            "name": "ShadowBottom1:PIV",
+            "mesh": 1,
+            "translation": [
+                0.0,
+                0.10666000097990036,
+                0.0
+            ]
+        },
+        {
+            "name": "Base1",
+            "mesh": 2
+        }
+    ],
+    "meshes": [
+        {
+            "name": "ShadowTopShape1",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "ShadowBottom1Shape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 6,
+                        "POSITION": 7,
+                        "TANGENT": 8,
+                        "TEXCOORD_0": 9
+                    },
+                    "indices": 5,
+                    "mode": 4,
+                    "material": 1
+                },
+                {
+                    "attributes": {
+                        "NORMAL": 11,
+                        "POSITION": 12,
+                        "TANGENT": 13,
+                        "TEXCOORD_0": 14
+                    },
+                    "indices": 10,
+                    "mode": 4,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "BaseShape1",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 16,
+                        "POSITION": 17,
+                        "TANGENT": 18,
+                        "TEXCOORD_0": 19
+                    },
+                    "indices": 15,
+                    "mode": 4,
+                    "material": 3
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "GLSLShader2",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.29638493061065676,
+                    0.4529389142990113,
+                    0.7541799545288086,
+                    1.0
+                ],
+                "metallicFactor": 0.5,
+                "roughnessFactor": 0.5
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "pasted__pasted__GLSLShader1",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.4249703586101532,
+                    0.6679428815841675,
+                    1.1786919832229617,
+                    1.0
+                ],
+                "metallicFactor": 0.5,
+                "roughnessFactor": 0.5
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "pasted__GLSLShader1",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.4249703586101532,
+                    0.6679428815841675,
+                    1.1786919832229617,
+                    1.0
+                ],
+                "metallicFactor": 0.5,
+                "roughnessFactor": 0.5
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "GLSLShader1",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.1009606271982193,
+                    0.14785191416740418,
+                    0.15172606706619264,
+                    1.0
+                ],
+                "metallicFactor": 0.5,
+                "roughnessFactor": 0.5
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "name": "ShadowTopShape1#0/indices",
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 9546,
+            "max": [
+                2614
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "ShadowTopShape1#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2615,
+            "max": [
+                0.9999372959136964,
+                0.9999719858169556,
+                1.0
+            ],
+            "min": [
+                -0.999984323978424,
+                -0.9999719858169556,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "ShadowTopShape1#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 31380,
+            "componentType": 5126,
+            "count": 2615,
+            "max": [
+                3.3187973499298097,
+                3.999679803848267,
+                0.699999988079071
+            ],
+            "min": [
+                -2.6213536262512209,
+                1.2464534044265748,
+                0.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "ShadowTopShape1#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2615,
+            "max": [
+                0.9674949645996094,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -0.9674988985061646,
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "ShadowTopShape1#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2615,
+            "max": [
+                0.998008131980896,
+                0.9980551600456238
+            ],
+            "min": [
+                0.0019920319318771364,
+                0.11965644359588625
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "ShadowBottom1Shape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 19092,
+            "componentType": 5123,
+            "count": 5367,
+            "max": [
+                1508
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "ShadowBottom1Shape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 62760,
+            "componentType": 5126,
+            "count": 1509,
+            "max": [
+                0.9999682903289796,
+                0.03925056383013725,
+                1.0
+            ],
+            "min": [
+                -0.9997991919517516,
+                -0.9999714493751526,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "ShadowBottom1Shape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 80868,
+            "componentType": 5126,
+            "count": 1509,
+            "max": [
+                3.3187973499298097,
+                3.485727071762085,
+                0.699999988079071
+            ],
+            "min": [
+                -2.6213536262512209,
+                0.7450693249702454,
+                0.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "ShadowBottom1Shape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 41840,
+            "componentType": 5126,
+            "count": 1509,
+            "max": [
+                0.00045667000813409686,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -0.0002061569975921884,
+                -1.0,
+                -1.0,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "ShadowBottom1Shape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 20920,
+            "componentType": 5126,
+            "count": 1509,
+            "max": [
+                0.998008131980896,
+                0.9980551600456238
+            ],
+            "min": [
+                0.03626292571425438,
+                0.025645077228546144
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "ShadowBottom1Shape#1/indices",
+            "bufferView": 0,
+            "byteOffset": 29826,
+            "componentType": 5123,
+            "count": 4071,
+            "max": [
+                1068
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "ShadowBottom1Shape#1/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 98976,
+            "componentType": 5126,
+            "count": 1069,
+            "max": [
+                0.999893069267273,
+                0.9999714493751526,
+                0.0000017029999526130269
+            ],
+            "min": [
+                -0.9998968839645386,
+                -0.511051595211029,
+                -0.0000019999999949504856
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "ShadowBottom1Shape#1/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 111804,
+            "componentType": 5126,
+            "count": 1069,
+            "max": [
+                3.317051649093628,
+                3.485727071762085,
+                0.699999988079071
+            ],
+            "min": [
+                -2.619629383087158,
+                0.8517293334007263,
+                0.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "ShadowBottom1Shape#1/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 65984,
+            "componentType": 5126,
+            "count": 1069,
+            "max": [
+                0.03860330954194069,
+                0.00025612200261093676,
+                1.0,
+                -1.0
+            ],
+            "min": [
+                -0.00026955601060763,
+                -0.9992546439170836,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "ShadowBottom1Shape#1/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 32992,
+            "componentType": 5126,
+            "count": 1069,
+            "max": [
+                0.998008131980896,
+                0.9980551600456238
+            ],
+            "min": [
+                0.08837157487869263,
+                0.025645077228546144
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "BaseShape1#0/indices",
+            "bufferView": 0,
+            "byteOffset": 37968,
+            "componentType": 5123,
+            "count": 6732,
+            "max": [
+                1647
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "BaseShape1#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 124632,
+            "componentType": 5126,
+            "count": 1648,
+            "max": [
+                1.0,
+                0.9999719858169556,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -0.9999714493751526,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "BaseShape1#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 144408,
+            "componentType": 5126,
+            "count": 1648,
+            "max": [
+                3.3187973499298097,
+                3.873158216476441,
+                0.699999988079071
+            ],
+            "min": [
+                -2.6213536262512209,
+                0.8517293334007263,
+                0.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "BaseShape1#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 83088,
+            "componentType": 5126,
+            "count": 1648,
+            "max": [
+                0.000017055999705917207,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -0.000010959000064758584,
+                -1.0,
+                -1.0,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "BaseShape1#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 41544,
+            "componentType": 5126,
+            "count": 1648,
+            "max": [
+                0.9980080723762512,
+                0.9980551600456238
+            ],
+            "min": [
+                0.0019920319318771364,
+                0.025645077228546144
+            ],
+            "type": "VEC2"
+        }
+    ],
+    "bufferViews": [
+        {
+            "name": "Infinity_001/data/indices-2",
+            "buffer": 0,
+            "byteOffset": 328368,
+            "byteLength": 51432,
+            "target": 34963
+        },
+        {
+            "name": "Infinity_001/data/vertices-12",
+            "buffer": 0,
+            "byteOffset": 109456,
+            "byteLength": 164184,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "name": "Infinity_001/data/vertices-16",
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 109456,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "name": "Infinity_001/data/vertices-8",
+            "buffer": 0,
+            "byteOffset": 273640,
+            "byteLength": 54728,
+            "byteStride": 8,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "name": "Infinity_001/data",
+            "byteLength": 379800,
+            "uri": "Infinity_0010.bin"
+        }
+    ]
+}

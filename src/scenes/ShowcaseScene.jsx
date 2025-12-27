@@ -11,6 +11,7 @@ import SpaceShip from "/public/models/SpaceShip";
 import Showcase from "../components/Showcase";
 import AnimatedSpaceship from "../../public/models/AnimatedSpaceship";
 import SagaV from "../../public/models/SagaV";
+import Idoona from "../../public/models/Idoona";
 
 // -------------------------
 // 🔧 GLOBAL SCENE CONTROLS
@@ -710,7 +711,7 @@ export default function ShowcaseScene() {
         position={[-6.8, 0, -9.8]}
         rotation={[0, 44.7, 0]}
         title="Flux Afterburn: 3D Animation Sequence"
-        description="On Flux Afterburn, I shaped a concise narrative through concept sketches and storyboards, grounding tone and pacing with targeted visual references. I then built the starship asset from top- and side-view drawings to ensure scene-to-scene continuity. Animation and effects were executed, followed by rendering, compositing, and audio mixing to deliver the finished film."
+        description="On Flux Afterburn, I shaped a concise narrative through concept sketches and storyboards, grounding tone and pacing with targeted visual references. I then built the starship asset in Autodesk Maya from top and side view drawings to ensure scene-to-scene continuity. Animation and effects were executed, followed by rendering, compositing, and audio mixing to deliver the finished film."
         centerStand={true}
         modelScale={0.12}
         modelRotation={[0, Math.PI / 2, 0]}
@@ -727,7 +728,7 @@ export default function ShowcaseScene() {
         position={[0, 0, -3.1]}
         rotation={[0, Math.PI, 0]}
         title="SagaV: Designing the Pour"
-        description="Saga V is a premium mocktail brand designed to deliver a high-end experience through cohesive brand identity, packaging, and storytelling. As lead for 3D mockups, I used Autodesk Maya to design and render bottle prototypes, and finalized on tarot-inspired round bottle featuring textured glass for grip and elegance, aligning with the brand’s premium vision while ensuring functionality."
+        description="Saga-V is a premium mocktail brand designed to deliver a high-end experience through cohesive brand identity, packaging, and storytelling. As lead for 3D mockups, I used Autodesk Maya to design and render bottle prototypes, finalizing on a tarot-inspired round bottle featuring textured glass for grip and elegance, aligning with the brand’s premium vision while ensuring functionality."
         centerStand={false}
         modelScale={0.018}
         modelRotation={[0, Math.PI / 6, 0]}
@@ -738,6 +739,23 @@ export default function ShowcaseScene() {
         }}
       >
         <SagaV />
+      </Showcase>
+
+      <Showcase
+        position={[6.8, 0, -9.8]}
+        rotation={[0, -44.6, 0]}
+        title="IDOONA: Logo Animation"
+        description="IDOONA is a sustainability SaaS that guides companies through ESG data entry, scoring, and reporting. This logo animation was created for motion branding and pitch material. Deliverables spanned research, storyboards, vector prep, timing, and export to H.264. The piece extends the product’s visual language into motion while staying lightweight for presentations."
+        centerStand={false}
+        modelScale={0.12}
+        modelRotation={[0, Math.PI / 8, 0]}
+        modelPosition={[-2.98, 1.3, -0.25]}
+        media={{
+          type: "youtube",
+          src: "https://youtu.be/gzcNubq4usc",
+        }}
+      >
+        <Idoona />
       </Showcase>
     </>
   );
