@@ -5,8 +5,9 @@ import {
   CuboidCollider,
   CylinderCollider,
 } from "@react-three/rapier";
-import { useRef, useEffect, useMemo } from "react";
+import { useRef, useState, useEffect, useMemo } from "react";
 import { Html } from "@react-three/drei";
+import { useThree, useFrame } from "@react-three/fiber";
 
 function MediaImage({ src }) {
   const texture = useTexture(src);
@@ -38,6 +39,26 @@ export default function Showcase({
 }) {
   const videoRef = useRef();
   const hasModel = Boolean(children);
+
+  const { camera } = useThree();
+  const [isActive, setIsActive] = useState(false);
+
+  const activationDistance = 6; // tweak per scale
+
+  useFrame(() => {
+    const worldPos = new THREE.Vector3();
+    worldPos.setFromMatrixPosition(
+      new THREE.Matrix4().compose(
+        new THREE.Vector3(...position),
+        new THREE.Quaternion(),
+        new THREE.Vector3(1, 1, 1)
+      )
+    );
+
+    const distance = camera.position.distanceTo(worldPos);
+    setIsActive(distance < activationDistance);
+  });
+
   const resolvedMedia = useMemo(() => {
     if (!media) return null;
 
@@ -81,12 +102,13 @@ export default function Showcase({
           <MediaImage src={resolvedMedia.src} />
         )}
 
-        {resolvedMedia?.type === "youtube" && (
+        {resolvedMedia?.type === "youtube" && isActive && (
           <Html
             position={[0, 2.2, -1.04]}
             transform
             occlude
-            distanceFactor={1.2}
+            distanceFactor={1.4}
+            zIndexRange={[0, 1]}
           >
             <iframe
               width="1280"
@@ -94,6 +116,11 @@ export default function Showcase({
               src={`https://www.youtube.com/embed/${resolvedMedia.videoId}?rel=0&autoplay=1&mute=1&loop=1&playlist=${resolvedMedia.videoId}`}
               allow="autoplay; encrypted-media"
               allowFullScreen={false}
+              style={{
+                opacity: isActive ? 1 : 0,
+                transition: "opacity 0.5s",
+                pointerEvents: "none",
+              }}
             />
           </Html>
         )}
