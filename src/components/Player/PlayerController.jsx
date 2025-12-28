@@ -30,6 +30,10 @@ export default function PlayerController({ enabled, onReady, joystick }) {
     if (!isMobile && controlsRef.current) {
       const obj = controlsRef.current.getObject();
       obj.rotation.set(0, Math.PI, 0);
+    } else if (isMobile) {
+      yaw.current = Math.PI;
+      pitch.current = 0;
+      camera.rotation.set(pitch.current, yaw.current, 0);
     }
 
     onReady?.();

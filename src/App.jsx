@@ -30,6 +30,14 @@ export default function App() {
   return (
     <>
       {!started && <IntroOverlay onStart={startExperience} />}
+
+      {isMobile && started && (
+        <MobileJoystick
+          onMove={(data) => setJoystick(data)}
+          onEnd={() => setJoystick({ x: 0, y: 0 })}
+        />
+      )}
+
       <Canvas
         shadows
         camera={{ fov: 70 }}
@@ -49,12 +57,6 @@ export default function App() {
               onReady={() => setPlayerReady(true)}
               joystick={joystick}
             />
-            {isMobile && (
-              <MobileJoystick
-                onMove={(data) => setJoystick(data)}
-                onEnd={() => setJoystick({ x: 0, y: 0 })}
-              />
-            )}
             {playerReady && <ShowcaseScene />}
             {playerReady && started && <DirectionArrow />}
           </Physics>
