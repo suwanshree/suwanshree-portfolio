@@ -579,9 +579,21 @@ export default function ShowcaseScene() {
         />
       </mesh>
 
-      {/* LED Light Strip 5 */}
+      {/* LED Light Strip 6 */}
       <mesh position={[0, GROUND_Y - 0.02, 0]} rotation={[Math.PI / 2, 0, 0]}>
         <torusGeometry args={[BUILDING_RADIUS - 0.32, 0.05, 8, 128]} />
+        <meshStandardMaterial
+          color="#4fd1ff"
+          emissive="#4fd1ff"
+          emissiveIntensity={1.2}
+          metalness={0.5}
+          roughness={0.1}
+        />
+      </mesh>
+
+      {/* LED Light Strip 7 */}
+      <mesh position={[0, GROUND_Y - 0.02, 0]} rotation={[Math.PI / 2, 0, 0]}>
+        <torusGeometry args={[BUILDING_RADIUS - 7, 0.05, 8, 128]} />
         <meshStandardMaterial
           color="#4fd1ff"
           emissive="#4fd1ff"
@@ -729,7 +741,6 @@ export default function ShowcaseScene() {
         rotation={[0, Math.PI, 0]}
         title="SagaV: Designing the Pour"
         description="Saga-V is a premium mocktail brand designed to deliver a high-end experience through cohesive brand identity, packaging, and storytelling. As lead for 3D mockups, I used Autodesk Maya to design and render bottle prototypes, finalizing on a tarot-inspired round bottle featuring textured glass for grip and elegance, aligning with the brand’s premium vision while ensuring functionality."
-        centerStand={false}
         modelScale={0.018}
         modelRotation={[0, Math.PI / 6, 0]}
         modelPosition={[-3.1, 1.4, -0.5]}
@@ -746,7 +757,6 @@ export default function ShowcaseScene() {
         rotation={[0, -44.6, 0]}
         title="IDOONA: Logo Animation"
         description="IDOONA is a sustainability SaaS that guides companies through ESG data entry, scoring, and reporting. This logo animation was created for motion branding and pitch material. Deliverables spanned research, storyboards, vector prep, timing, and export to H.264. The piece extends the product’s visual language into motion while staying lightweight for presentations."
-        centerStand={false}
         modelScale={0.12}
         modelRotation={[0, Math.PI / 8, 0]}
         modelPosition={[-2.98, 1.3, -0.25]}
@@ -757,6 +767,61 @@ export default function ShowcaseScene() {
       >
         <Idoona />
       </Showcase>
+
+      <Showcase
+        position={[11.5, 0, -1]}
+        rotation={[0, -39.3, 0]}
+        title="3D Animation Fundamentals"
+        description="This animation explores the fundamentals of motion through a jumping ball-bear. The exercise focused on crafting strong key poses, clean breakdowns, and readable arcs while applying anticipation, squash & stretch, and timing to convey weight and intent. Exaggeration and spacing were used to enhance clarity, establishing a foundation for believable character motion."
+        media={{
+          type: "youtube",
+          src: "https://youtu.be/U9VOXgDSVrc",
+        }}
+      ></Showcase>
+
+      <Showcase
+        position={[8.7, 0, 8]}
+        rotation={[0, -33.8, 0]}
+        title="One-Leg Hop: FK / IK Animation Study"
+        description="This animation study challenged control and precision by animating a character hopping on a single leg driven by inverse kinematics, while the secondary leg remained forward-kinematic. The piece emphasizes balance, weight transfer, and follow-through, with careful attention to foot roll, knee articulation, and toe controls along with Timing, overlap, and body mechanics refinement."
+        media={{
+          type: "youtube",
+          src: "https://youtu.be/ZH74kJEUng4",
+        }}
+      ></Showcase>
+
+      <Showcase
+        position={[0, 0, 12]}
+        rotation={[0, Math.PI, 0]}
+        title="Seasons Motion Graphic"
+        description="This five-second motion graphic distills the essence of the four seasons into a continuous visual loop. Each transition relies on shape language, rhythm, and timing to flow seamlessly from spring to winter. Anticipation and easing guide the transformations, while color and motion continuity reinforce cohesion, resulting in a compact and clear minimalist design."
+        media={{
+          type: "youtube",
+          src: "https://youtu.be/kz3FOnHhjb8",
+        }}
+      ></Showcase>
+
+      <Showcase
+        position={[-8.5, 0, 8.5]}
+        rotation={[0, -38.5 + Math.PI, 0]}
+        title="City Awakening: Animated Timelapse"
+        description="City Awakening is a layered animation that brings a quiet workspace to life through environmental motion and timing. As the scene progresses, foreground elements activate while the city beyond the window transitions from night to day. Staggered reveals, overlapping action, and subtle secondary motion build a sense of realism and atmosphere."
+        media={{
+          type: "youtube",
+          src: "https://youtu.be/leMMG_cZULI",
+        }}
+      ></Showcase>
+
+      <Showcase
+        position={[-11.7, 0, 1]}
+        rotation={[0, -39.3 + Math.PI, 0]}
+        title="MarsSuit Demo: Planetary Protek"
+        description="This concept demo highlights key advantages of Planetary Protek’s MarsSuit through motion design and visual storytelling. Animation principles such as contrast, emphasis, and timing are used to communicate functional benefits against existing Artemis references. Designed for clarity and persuasion, the piece balances technical credibility with engaging motion."
+        media={{
+          type: "youtube",
+          src: "https://youtu.be/tvhw5Iizc6w",
+        }}
+      />
     </>
   );
 }

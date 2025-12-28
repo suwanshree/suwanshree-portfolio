@@ -37,7 +37,7 @@ export default function Showcase({
   children,
 }) {
   const videoRef = useRef();
-
+  const hasModel = Boolean(children);
   const resolvedMedia = useMemo(() => {
     if (!media) return null;
 
@@ -127,35 +127,37 @@ export default function Showcase({
       </RigidBody>
 
       {/* 🗿 GLASS PEDESTAL */}
-      <RigidBody type="fixed" colliders={false}>
-        {/* Visual */}
-        <mesh position={[-3, 0.65, -0.3]} receiveShadow>
-          <cylinderGeometry args={[0.8, 0.9, 1.3, 64]} />
-          <meshPhysicalMaterial
-            transmission={1}
-            thickness={0.4}
-            roughness={0}
-            ior={1.5}
-            color="#dbeafe"
-          />
-        </mesh>
+      {hasModel && (
+        <RigidBody type="fixed" colliders={false}>
+          {/* Visual */}
+          <mesh position={[-3, 0.65, -0.3]} receiveShadow>
+            <cylinderGeometry args={[0.8, 0.9, 1.3, 64]} />
+            <meshPhysicalMaterial
+              transmission={1}
+              thickness={0.4}
+              roughness={0}
+              ior={1.5}
+              color="#dbeafe"
+            />
+          </mesh>
 
-        {/* Solid top */}
-        <mesh position={[-3, 1.32, -0.3]} receiveShadow>
-          <cylinderGeometry args={[0.86, 0.86, 0.12, 64]} />
-          <meshStandardMaterial
-            color="#020617"
-            roughness={0.35}
-            metalness={0.6}
-          />
-        </mesh>
+          {/* Solid top */}
+          <mesh position={[-3, 1.32, -0.3]} receiveShadow>
+            <cylinderGeometry args={[0.86, 0.86, 0.12, 64]} />
+            <meshStandardMaterial
+              color="#020617"
+              roughness={0.35}
+              metalness={0.6}
+            />
+          </mesh>
 
-        {/* Collider */}
-        <CylinderCollider args={[0.75, 0.9]} position={[-3, 0.65, -0.3]} />
-      </RigidBody>
+          {/* Collider */}
+          <CylinderCollider args={[0.75, 0.9]} position={[-3, 0.65, -0.3]} />
+        </RigidBody>
+      )}
 
       {/* Optional center stand */}
-      {centerStand && (
+      {hasModel && centerStand && (
         <mesh position={[-3, 1.4, -0.3]}>
           <cylinderGeometry args={[0.04, 0.04, 0.4, 24]} />
           <meshStandardMaterial
@@ -167,13 +169,15 @@ export default function Showcase({
       )}
 
       {/* ⭐ PROJECT MODEL */}
-      <group
-        position={modelPosition}
-        rotation={modelRotation}
-        scale={modelScale}
-      >
-        {children}
-      </group>
+      {hasModel && (
+        <group
+          position={modelPosition}
+          rotation={modelRotation}
+          scale={modelScale}
+        >
+          {children}
+        </group>
+      )}
 
       {/* 🪄 INFO STAND POLE */}
       <RigidBody type="fixed" colliders={false}>
