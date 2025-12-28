@@ -11,12 +11,16 @@ import IntroOverlay from "./components/IntroOverlay";
 import "./styles/globals.css";
 import DirectionArrow from "./components/DirectionArrow";
 import MovementHint from "./components/MovementHint";
+import MobileJoystick from "./components/Controls/MobileJoystick";
+import { isMobile } from "./utils/device";
 
 export default function App() {
   const [started, setStarted] = useState(
     () => localStorage.getItem("started") === "true"
   );
   const [playerReady, setPlayerReady] = useState(false);
+
+  const [joystick, setJoystick] = useState({ x: 0, y: 0 });
 
   const startExperience = () => {
     localStorage.setItem("started", "true");
@@ -43,7 +47,14 @@ export default function App() {
             <PlayerController
               enabled={started}
               onReady={() => setPlayerReady(true)}
+              joystick={joystick}
             />
+            {isMobile && (
+              <MobileJoystick
+                onMove={(data) => setJoystick(data)}
+                onEnd={() => setJoystick({ x: 0, y: 0 })}
+              />
+            )}
             {playerReady && <ShowcaseScene />}
             {playerReady && started && <DirectionArrow />}
           </Physics>

@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
 import { Html } from "@react-three/drei";
+import { isMobile } from "../utils/device";
 
 export default function MovementHint() {
   const [visible, setVisible] = useState(true);
 
   useEffect(() => {
+    if (isMobile) return;
+
     const onKey = (e) => {
       if (["w", "a", "s", "d"].includes(e.key.toLowerCase())) {
         setVisible(false);
@@ -16,7 +19,7 @@ export default function MovementHint() {
     return () => window.removeEventListener("keydown", onKey);
   }, []);
 
-  if (!visible) return null;
+  if (!visible || isMobile) return null;
 
   return (
     <Html>
