@@ -13,11 +13,10 @@ export default function PlayerController({ enabled, onReady, joystick }) {
   const keys = useKeyboardControls();
 
   const yaw = useRef(0);
-  const pitch = useRef(0);
 
   const SPEED = 10;
   const PLAYER_HEIGHT = 1.6;
-  const LOOK_SENSITIVITY = 0.0035;
+  const LOOK_SENSITIVITY = 0.004;
 
   /* 🎯 CLEAN INITIAL SPAWN */
   useEffect(() => {
@@ -29,23 +28,22 @@ export default function PlayerController({ enabled, onReady, joystick }) {
     bodyRef.current.setAngvel({ x: 0, y: 0, z: 0 }, false);
 
     if (!isMobile && controlsRef.current) {
-      const obj = controlsRef.current.getObject();
-      obj.rotation.set(0, Math.PI, 0);
-    } else if (isMobile) {
+      controlsRef.current.getObject().rotation.set(0, Math.PI, 0);
+    }
+
+    if (isMobile) {
       yaw.current = Math.PI;
-      pitch.current = 0;
       camera.rotation.set(0, yaw.current, 0);
     }
 
     onReady?.();
-  }, [onReady]);
+  }, [camera, onReady]);
 
-  /* 📱 TOUCH LOOK (mobile only) */
+  /* 📱 MOBILE LOOK — YAW ONLY */
   useEffect(() => {
     if (!isMobile) return;
 
     let lastX = null;
-    let lastY = null;
 
     const onTouchMove = (e) => {
       const touch = e.touches[0];
@@ -53,24 +51,20 @@ export default function PlayerController({ enabled, onReady, joystick }) {
 
       if (lastX !== null) {
         const dx = touch.clientX - lastX;
-        const dy = touch.clientY - lastY;
 
         yaw.current -= dx * LOOK_SENSITIVITY;
-        pitch.current += dy * LOOK_SENSITIVITY;
-        pitch.current = THREE.MathUtils.clamp(pitch.current, -1.4, 1.4);
+
         camera.rotation.order = "YXZ";
         camera.rotation.y = yaw.current;
-        camera.rotation.x = pitch.current;
+        camera.rotation.x = 0;
         camera.rotation.z = 0;
       }
 
       lastX = touch.clientX;
-      lastY = touch.clientY;
     };
 
     const onTouchEnd = () => {
       lastX = null;
-      lastY = null;
     };
 
     gl.domElement.addEventListener("touchmove", onTouchMove, { passive: true });

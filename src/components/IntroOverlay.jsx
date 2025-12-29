@@ -11,7 +11,7 @@ export default function IntroOverlay({ onStart }) {
           <p>
             <strong>Left joystick</strong> — Move
             <br />
-            <strong>Swipe</strong> — Look around
+            <strong>Swipe</strong> — Look left / right
             <br />
             <strong>Tap</strong> — Enter experience
           </p>
