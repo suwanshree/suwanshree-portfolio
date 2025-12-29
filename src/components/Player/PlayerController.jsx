@@ -1,4 +1,4 @@
-import { useRef, useEffect, useState } from "react";
+import { useRef, useEffect } from "react";
 import { useFrame, useThree } from "@react-three/fiber";
 import { PointerLockControls } from "@react-three/drei";
 import { RigidBody, CapsuleCollider } from "@react-three/rapier";
@@ -17,6 +17,7 @@ export default function PlayerController({ enabled, onReady, joystick }) {
 
   const SPEED = 10;
   const PLAYER_HEIGHT = 1.6;
+  const LOOK_SENSITIVITY = 0.0035;
 
   /* 🎯 CLEAN INITIAL SPAWN */
   useEffect(() => {
@@ -33,7 +34,7 @@ export default function PlayerController({ enabled, onReady, joystick }) {
     } else if (isMobile) {
       yaw.current = Math.PI;
       pitch.current = 0;
-      camera.rotation.set(pitch.current, yaw.current, 0);
+      camera.rotation.set(0, yaw.current, 0);
     }
 
     onReady?.();
@@ -54,11 +55,13 @@ export default function PlayerController({ enabled, onReady, joystick }) {
         const dx = touch.clientX - lastX;
         const dy = touch.clientY - lastY;
 
-        yaw.current -= dx * 0.002;
-        pitch.current -= dy * 0.002;
-        pitch.current = THREE.MathUtils.clamp(pitch.current, -1.5, 1.5);
-
-        camera.rotation.set(pitch.current, yaw.current, 0);
+        yaw.current -= dx * LOOK_SENSITIVITY;
+        pitch.current += dy * LOOK_SENSITIVITY;
+        pitch.current = THREE.MathUtils.clamp(pitch.current, -1.4, 1.4);
+        camera.rotation.order = "YXZ";
+        camera.rotation.y = yaw.current;
+        camera.rotation.x = pitch.current;
+        camera.rotation.z = 0;
       }
 
       lastX = touch.clientX;
@@ -70,7 +73,7 @@ export default function PlayerController({ enabled, onReady, joystick }) {
       lastY = null;
     };
 
-    gl.domElement.addEventListener("touchmove", onTouchMove);
+    gl.domElement.addEventListener("touchmove", onTouchMove, { passive: true });
     gl.domElement.addEventListener("touchend", onTouchEnd);
 
     return () => {
@@ -91,7 +94,7 @@ export default function PlayerController({ enabled, onReady, joystick }) {
     forward.normalize();
 
     const right = new THREE.Vector3()
-      .crossVectors(forward, camera.up)
+      .crossVectors(forward, new THREE.Vector3(0, 1, 0))
       .normalize();
 
     const moveDir = new THREE.Vector3();

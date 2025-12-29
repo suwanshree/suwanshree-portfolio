@@ -16,14 +16,14 @@ import { isMobile } from "./utils/device";
 
 export default function App() {
   const [started, setStarted] = useState(
-    () => localStorage.getItem("started") === "true"
+    () => sessionStorage.getItem("started") === "true"
   );
   const [playerReady, setPlayerReady] = useState(false);
 
   const [joystick, setJoystick] = useState({ x: 0, y: 0 });
 
   const startExperience = () => {
-    localStorage.setItem("started", "true");
+    sessionStorage.setItem("started", "true");
     setStarted(true);
   };
 
