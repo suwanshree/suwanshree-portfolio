@@ -729,8 +729,8 @@ export default function ShowcaseScene() {
         modelRotation={[0, Math.PI / 2, 0]}
         modelPosition={[-3, 1.6, -0.7]}
         media={{
-          type: "youtube",
-          src: "https://youtu.be/yynJ9WZEkGM",
+          type: "video",
+          src: "/videos/flux-afterburn.mp4",
         }}
       >
         <AnimatedSpaceship />
@@ -761,8 +761,8 @@ export default function ShowcaseScene() {
         modelRotation={[0, Math.PI / 8, 0]}
         modelPosition={[-2.98, 1.3, -0.25]}
         media={{
-          type: "youtube",
-          src: "https://youtu.be/gzcNubq4usc",
+          type: "video",
+          src: "/videos/idoona-logo.mp4",
         }}
       >
         <Idoona />
@@ -774,8 +774,8 @@ export default function ShowcaseScene() {
         title="3D Animation Fundamentals"
         description="This animation explores the fundamentals of motion through a jumping ball-bear. The exercise focused on crafting strong key poses, clean breakdowns, and readable arcs while applying anticipation, squash & stretch, and timing to convey weight and intent. Exaggeration and spacing were used to enhance clarity, establishing a foundation for believable character motion."
         media={{
-          type: "youtube",
-          src: "https://youtu.be/U9VOXgDSVrc",
+          type: "video",
+          src: "/videos/ball-jump.mp4",
         }}
       ></Showcase>
 
@@ -785,8 +785,8 @@ export default function ShowcaseScene() {
         title="One-Leg Hop: FK / IK Animation Study"
         description="This animation study challenged control and precision by animating a character hopping on a single leg driven by inverse kinematics, while the secondary leg remained forward-kinematic. The piece emphasizes balance, weight transfer, and follow-through, with careful attention to foot roll, knee articulation, and toe controls along with Timing, overlap, and body mechanics refinement."
         media={{
-          type: "youtube",
-          src: "https://youtu.be/ZH74kJEUng4",
+          type: "video",
+          src: "/videos/one-leg-hop.mp4",
         }}
       ></Showcase>
 
@@ -796,8 +796,8 @@ export default function ShowcaseScene() {
         title="Seasons Motion Graphic"
         description="This five-second motion graphic distills the essence of the four seasons into a continuous visual loop. Each transition relies on shape language, rhythm, and timing to flow seamlessly from spring to winter. Anticipation and easing guide the transformations, while color and motion continuity reinforce cohesion, resulting in a compact and clear minimalist design."
         media={{
-          type: "youtube",
-          src: "https://youtu.be/kz3FOnHhjb8",
+          type: "video",
+          src: "/videos/seasons.mp4",
         }}
       ></Showcase>
 
@@ -807,8 +807,8 @@ export default function ShowcaseScene() {
         title="City Awakening: Animated Timelapse"
         description="City Awakening is a layered animation that brings a quiet workspace to life through environmental motion and timing. As the scene progresses, foreground elements activate while the city beyond the window transitions from night to day. Staggered reveals, overlapping action, and subtle secondary motion build a sense of realism and atmosphere."
         media={{
-          type: "youtube",
-          src: "https://youtu.be/leMMG_cZULI",
+          type: "video",
+          src: "/videos/city-awakening.mp4",
         }}
       ></Showcase>
 
@@ -818,8 +818,8 @@ export default function ShowcaseScene() {
         title="MarsSuit Demo: Planetary Protek"
         description="This concept demo highlights key advantages of Planetary Protek’s MarsSuit through motion design and visual storytelling. Animation principles such as contrast, emphasis, and timing are used to communicate functional benefits against existing Artemis references. Designed for clarity and persuasion, the piece balances technical credibility with engaging motion."
         media={{
-          type: "youtube",
-          src: "https://youtu.be/tvhw5Iizc6w",
+          type: "video",
+          src: "/videos/marssuit.mp4",
         }}
       />
     </>
